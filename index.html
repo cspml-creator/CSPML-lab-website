@@ -1,11 +1,206 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Lab</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSPML — Communication, Signal Processing & Machine Learning Lab | IIT Dharwad</title>
+
+  <!-- Stylesheets (split for easy editing) -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
-    <h1>Welcome to My Lab</h1>
-    <p>This is my first website.</p>
+
+<!-- ════════════════════════════════════════
+     NAV
+     ════════════════════════════════════════ -->
+<nav>
+  <a class="nav-logo" href="index.html">CSP<span>ML</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="infrastructure.html">Infrastructure</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a class="nav-cta" href="contact.html">Join Us</a>
+</nav>
+
+<!-- ════════════════════════════════════════
+     NEWS TICKER
+     To add a news item: copy one <span> group and paste before the duplicate block.
+     Keep the second half identical to the first (needed for seamless looping).
+     ════════════════════════════════════════ -->
+<div style="background:var(--navy-mid);border-top:0.5px solid rgba(0,194,255,.12);border-bottom:0.5px solid rgba(0,194,255,.12);display:flex;align-items:center;overflow:hidden;height:44px;margin-top:64px;">
+  <div style="background:var(--accent);color:var(--navy);font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:0 16px;height:100%;display:flex;align-items:center;flex-shrink:0;white-space:nowrap;">Latest</div>
+  <div style="overflow:hidden;flex:1;">
+    <div class="ticker-track">
+      <!-- EDIT: TICKER — add new announcements here (copy format below) -->
+      <span class="ticker-accent">📄</span> New paper accepted at IEEE ICASSP 2025 &nbsp;·&nbsp;
+      <span class="ticker-accent">🏆</span> Best paper award at SPCOM 2024 &nbsp;·&nbsp;
+      <span class="ticker-accent">🎓</span> PhD admissions open — Apply by May 31, 2025 &nbsp;·&nbsp;
+      <span class="ticker-accent">🔬</span> New SERB-funded project on 6G channel estimation begins &nbsp;·&nbsp;
+      <span class="ticker-accent">🤝</span> Collaboration with DRDO on radar signal processing &nbsp;·&nbsp;
+      <!-- Duplicate below for seamless loop — keep identical to above -->
+      <span class="ticker-accent">📄</span> New paper accepted at IEEE ICASSP 2025 &nbsp;·&nbsp;
+      <span class="ticker-accent">🏆</span> Best paper award at SPCOM 2024 &nbsp;·&nbsp;
+      <span class="ticker-accent">🎓</span> PhD admissions open — Apply by May 31, 2025 &nbsp;·&nbsp;
+      <span class="ticker-accent">🔬</span> New SERB-funded project on 6G channel estimation begins &nbsp;·&nbsp;
+      <span class="ticker-accent">🤝</span> Collaboration with DRDO on radar signal processing
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     HERO
+     ════════════════════════════════════════ -->
+<section class="hero" id="home" style="display:flex;flex-direction:column;padding:120px 4vw 0;position:relative;overflow:hidden;">
+  <canvas id="hero-canvas" style="position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;"></canvas>
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+
+  <!-- EDIT: HERO TAG — short descriptor shown above the title -->
+  <div class="hero-tag" style="display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);border:.5px solid rgba(0,194,255,.35);padding:6px 16px;border-radius:50px;width:fit-content;margin-bottom:1.5rem;">
+    <div class="pulse-dot"></div>
+    IIT Dharwad · EECE Department
+  </div>
+
+  <!-- EDIT: HERO TITLE -->
+  <h1 style="font-family:var(--font-head);font-size:clamp(2.4rem,5.5vw,5rem);font-weight:800;line-height:1.08;letter-spacing:-.02em;color:#fff;max-width:760px;">
+    Communication, <em>Signal Processing</em><br>& Machine Learning Laboratory
+  </h1>
+
+  <!-- EDIT: HERO SUBTITLE -->
+  <p class="hero-sub" style="max-width:560px;margin-top:1.5rem;color:var(--text-muted);font-size:1.05rem;font-weight:300;">
+    Advancing next-generation wireless communication, adaptive signal processing, and machine learning for sensing — at the frontier of engineering research at IIT Dharwad.
+  </p>
+
+  <div class="hero-actions" style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:2.5rem;">
+    <a class="btn-primary" href="about.html">Explore Research</a>
+    <a class="btn-outline" href="about.html#publications">Publications →</a>
+  </div>
+
+  <!-- EDIT: HERO STATS — update numbers as lab grows -->
+  <div class="hero-stats" style="display:flex;gap:3rem;margin-top:4rem;flex-wrap:wrap;">
+    <div>
+      <div style="font-family:var(--font-head);font-size:2rem;font-weight:800;color:#fff;line-height:1;">25<span style="color:var(--accent);">+</span></div>
+      <div style="font-size:.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;margin-top:4px;">Publications</div>
+    </div>
+    <div>
+      <div style="font-family:var(--font-head);font-size:2rem;font-weight:800;color:#fff;line-height:1;">12<span style="color:var(--accent);">+</span></div>
+      <div style="font-size:.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;margin-top:4px;">Researchers</div>
+    </div>
+    <div>
+      <div style="font-family:var(--font-head);font-size:2rem;font-weight:800;color:#fff;line-height:1;">4<span style="color:var(--accent);">+</span></div>
+      <div style="font-size:.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;margin-top:4px;">Funded Projects</div>
+    </div>
+  </div>
+
+  <!-- ── HERO IMAGE ──
+       To add your lab/campus photo:
+       1. Copy your image to images/hero/ (e.g. images/hero/lab-overview.jpg)
+       2. Replace the src below from the placeholder to your file path
+       See images/hero/README.md for sizing guide.
+  -->
+  <!-- EDIT: HERO IMAGE → replace src below -->
+  <div style="margin-top:3rem;width:calc(100% + 8vw);margin-left:-4vw;aspect-ratio:21/9;overflow:hidden;border-top:1px solid var(--card-border);position:relative;">
+    <img src="images/hero/lab-overview.jpg"
+         alt="Communication & Signal Processing Lab — IIT Dharwad"
+         style="width:100%;height:100%;object-fit:cover;display:block;">
+    <div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(10,22,40,.8));padding:1rem;font-size:.75rem;color:rgba(220,232,255,.6);text-align:center;">
+      📷 Replace with your lab photo — see <code>images/hero/README.md</code>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     NEWS
+     To add news: copy a .news-item div, paste at top of .news-list, edit text.
+     See content/news.md for full list of news items.
+     ════════════════════════════════════════ -->
+<section id="news">
+  <div class="reveal">
+    <div class="section-tag">Updates</div>
+    <h2 class="section-title">News & Announcements</h2>
+    <div class="section-divider"></div>
+  </div>
+
+  <div class="news-grid reveal">
+    <!-- Featured news story -->
+    <div class="news-featured">
+      <!-- EDIT: NEWS FEATURED IMAGE
+           1. Add your image to images/news/ (e.g. images/news/2024-spcom-award.jpg)
+           2. Replace src below with your file path
+           See images/news/README.md for sizing guide.
+      -->
+      <img class="news-featured-img"
+           src="images/placeholder/news.svg"
+           alt="Best Paper Award at SPCOM 2024"
+           style="width:100%;aspect-ratio:16/7;object-fit:cover;border-bottom:.5px solid var(--card-border);display:block;">
+
+      <div class="news-content">
+        <!-- EDIT: FEATURED NEWS TAG, HEADLINE, BODY -->
+        <div class="news-tag-pill">Award</div>
+        <div class="news-headline">Best Paper Award at IEEE SPCOM 2024 for Channel Estimation Work</div>
+        <div class="news-body">Our paper on deep learning-based channel estimation for OFDM systems received the best paper award at SPCOM 2024, held at IISc Bangalore. Replace this with your actual news summary and add a link below.</div>
+        <div class="news-meta">April 2025 <span>·</span> Research Team &nbsp;<a href="#" class="btn-sm">Read more →</a></div>
+      </div>
+    </div>
+
+    <!-- Sidebar news list -->
+    <div class="news-list">
+      <!-- EDIT: NEWS ITEMS — add newest at top, copy this block to add more -->
+
+      <div class="news-item">
+        <div class="news-item-tag">Admissions</div>
+        <div class="news-item-title">PhD Positions Open for Autumn 2025 — Wireless Communications & Signal Processing</div>
+        <div class="news-item-date">March 2025</div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-item-tag">Publication</div>
+        <div class="news-item-title">Paper Accepted at IEEE ICASSP 2025 — Sparse Recovery with Unknown Sparsity</div>
+        <div class="news-item-date">February 2025</div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-item-tag">Funding</div>
+        <div class="news-item-title">SERB Core Research Grant Awarded for 6G Waveform Design Project</div>
+        <div class="news-item-date">January 2025</div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-item-tag">Talk</div>
+        <div class="news-item-title">Invited Talk at NIT Surathkal on ISAC Systems — December 2024</div>
+        <div class="news-item-date">December 2024</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     FOOTER
+     ════════════════════════════════════════ -->
+<footer>
+  <div>
+    <div class="footer-logo">CSP<span>ML</span></div>
+    <div class="footer-copy" style="margin-top:4px;">Communication, Signal Processing &amp; Machine Learning Laboratory · IIT Dharwad</div>
+  </div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="people.html">People</a>
+    <a href="infrastructure.html">Infrastructure</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="footer-copy">© 2025 CSPML · All rights reserved</div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
 </body>
 </html>

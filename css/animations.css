@@ -1,0 +1,83 @@
+/* ===========================================
+   animations.css — Motion, Reveals, Effects
+   CSPML Website · IIT Dharwad
+   =========================================== */
+
+/* ── Scroll Reveal (JS adds .visible) ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Hero Entrance ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero-tag       { animation: fadeUp 0.6s 0.0s ease both; }
+.hero h1        { animation: fadeUp 0.7s 0.1s ease both; }
+.hero-sub       { animation: fadeUp 0.7s 0.2s ease both; }
+.hero-actions   { animation: fadeUp 0.7s 0.3s ease both; }
+.hero-stats     { animation: fadeUp 0.7s 0.4s ease both; }
+.hero-img-wrap  { animation: fadeUp 0.8s 0.3s ease both; }
+
+/* ── Pulsing dot ── */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+.pulse-dot {
+  display: inline-block;
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--accent);
+  animation: pulse 2s ease infinite;
+}
+
+/* ── News Ticker ── */
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.ticker-track {
+  display: flex; gap: 4rem;
+  white-space: nowrap;
+  animation: ticker 28s linear infinite;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  padding: 0 2rem;
+}
+.ticker-track:hover { animation-play-state: paused; }
+.ticker-track .ticker-accent { color: var(--accent); font-weight: 600; }
+
+/* ── Glow Backgrounds ── */
+.hero-glow {
+  position: absolute; top: -20%; right: -10%;
+  width: 700px; height: 700px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 194, 255, 0.09) 0%, transparent 65%);
+  pointer-events: none;
+}
+.hero-glow2 {
+  position: absolute; bottom: -15%; left: -5%;
+  width: 500px; height: 500px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(91, 141, 238, 0.08) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+/* ── Hero Canvas — sits behind all hero content ── */
+#hero-canvas { display: block; }
+
+/* ── Grid Background ── */
+.hero-grid-bg {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(0, 194, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 194, 255, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+}

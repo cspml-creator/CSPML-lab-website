@@ -1,0 +1,106 @@
+/* ===========================================
+   style.css — Base, Variables, Typography
+   CSPML Website · IIT Dharwad
+   =========================================== */
+
+/* ── Google Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+/* ── Design Tokens ── */
+:root {
+  /* Colors */
+  --navy:        #0a1628;   /* main background */
+  --navy-mid:    #112040;   /* alternate section background */
+  --navy-card:   #111d35;   /* card background */
+  --accent:      #00c2ff;   /* primary highlight color */
+  --accent2:     #5b8dee;   /* secondary accent */
+  --gold:        #f5c842;   /* course codes, special badges */
+  --text-main:   #dce8ff;   /* body text */
+  --text-muted:  #8899bb;   /* secondary/hint text */
+  --card-border: rgba(0, 194, 255, 0.13);
+
+  /* Typography */
+  --font-head: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* Spacing */
+  --radius:    14px;
+  --radius-sm: 8px;
+
+  /* Section padding */
+  --section-pad: 90px 4vw;
+}
+
+/* ── Reset ── */
+*, *::before, *::after {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--navy);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a { color: var(--accent); }
+
+/* ── Section Wrappers ── */
+section { padding: var(--section-pad); }
+
+.bg-alt { background: var(--navy-mid); }
+
+/* ── Section Header ── */
+.section-tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-family: var(--font-head);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.section-title em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+.section-sub {
+  color: var(--text-muted);
+  max-width: 560px;
+  font-size: 1rem;
+}
+
+.section-divider {
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  border-radius: 2px;
+  margin: 1.25rem 0 2.5rem;
+}
+
+/* ── Utility ── */
+.text-accent  { color: var(--accent); }
+.text-muted   { color: var(--text-muted); }
+.text-white   { color: #fff; }
+.font-head    { font-family: var(--font-head); }

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People | CSPML — IIT Dharwad</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">CSP<span>ML</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="people.html" class="active">People</a></li>
+    <li><a href="infrastructure.html">Infrastructure</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a class="nav-cta" href="contact.html">Join Us</a>
+</nav>
+
+<!-- ════════════════════════════════════════
+     PEOPLE
+     Three tabs: Faculty · Staff · Students
+
+     TO ADD A PERSON:
+       1. Find the correct tab panel (people-panel-faculty / staff / students)
+       2. Copy any .person-card block, paste, and update name/initials/role/photo
+       3. For students, place the card inside the correct subsection div
+     See content/people.md and images/people/README.md for details.
+     ════════════════════════════════════════ -->
+<section id="people" class="bg-alt">
+  <div class="reveal">
+    <div class="section-tag">The Team</div>
+    <h2 class="section-title">People</h2>
+    <div class="section-divider"></div>
+  </div>
+
+  <!-- ── Tab buttons ── -->
+  <div class="people-tabs reveal" role="tablist">
+    <button class="people-tab active" data-tab="faculty" role="tab" aria-selected="true">Faculty</button>
+    <button class="people-tab"        data-tab="staff"   role="tab" aria-selected="false">Staff</button>
+    <!-- TEMPORARILY HIDDEN
+    <button class="people-tab"        data-tab="students"role="tab" aria-selected="false">Students</button>
+    -->
+  </div>
+
+  <!-- ══════════════════════════════
+       TAB 1 — FACULTY
+       ══════════════════════════════ -->
+  <div class="people-panel active" id="people-panel-faculty" role="tabpanel">
+    <div class="people-grid">
+
+      <!-- EDIT: FACULTY — copy this card to add more faculty members -->
+      <div class="person-card" style="border-color:rgba(0,194,255,.3);">
+        <img class="person-photo" src="images/people/Prof_BHaratahBN.jpg"
+             onload="this.style.display='block';this.nextElementSibling.style.display='none';"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="person-avatar" style="width:80px;height:80px;font-size:1.3rem;">Prof</div>
+        <div class="person-name">Prof. B N Bharath</div>
+        <div class="person-role">Associate Professor</div>
+        <div style="margin-top:8px;"><a href="https://www.iitdh.ac.in/user-profile/b-n-bharath" target="_blank" class="btn-sm">Faculty Profile →</a></div>
+      </div>
+
+      <div class="person-card" style="border-color:rgba(0,194,255,.3);">
+        <img class="person-photo" src="images/people/NaveenMB.jpeg"
+             onload="this.style.display='block';this.nextElementSibling.style.display='none';"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="person-avatar" style="width:80px;height:80px;font-size:1.1rem;">NMB</div>
+        <div class="person-name">Prof. Naveen M. B.</div>
+        <div class="person-role">Associate Professor</div>
+        <div style="margin-top:8px;"><a href="https://www.iitdh.ac.in/node/2062" target="_blank" class="btn-sm">Faculty Profile →</a></div>
+      </div>
+
+      <div class="person-card" style="border-color:rgba(0,194,255,.3);">
+        <img class="person-photo" src="images/people/Rahul_Pandya.jpg"
+             onload="this.style.display='block';this.nextElementSibling.style.display='none';"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="person-avatar" style="width:80px;height:80px;font-size:1.1rem;">RJP</div>
+        <div class="person-name">Prof. Rahul Jashvantbhai Pandya</div>
+        <div class="person-role">Associate Professor</div>
+        <div style="margin-top:8px;"><a href="https://www.iitdh.ac.in/node/2064" target="_blank" class="btn-sm">Faculty Profile →</a></div>
+      </div>
+
+      <div class="person-card" style="border-color:rgba(0,194,255,.3);">
+        <img class="person-photo" src="images/people/Rajshekhar_V_Bhat.jpeg"
+             onload="this.style.display='block';this.nextElementSibling.style.display='none';"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="person-avatar" style="width:80px;height:80px;font-size:1.1rem;">RVB</div>
+        <div class="person-name">Prof. Rajshekhar V Bhat</div>
+        <div class="person-role">Assistant Professor</div>
+        <div style="margin-top:8px;"><a href="https://www.iitdh.ac.in/user-profile/rajshekhar-v-bhat" target="_blank" class="btn-sm">Faculty Profile →</a></div>
+      </div>
+
+      <div class="person-card" style="border-color:rgba(0,194,255,.3);">
+        <img class="person-photo" src="images/people/Mahadeva_Prasanna.jpeg"
+             onload="this.style.display='block';this.nextElementSibling.style.display='none';"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="person-avatar" style="width:80px;height:80px;font-size:1rem;">SRMP</div>
+        <div class="person-name">Prof. S R Mahadeva Prasanna</div>
+        <div class="person-role">Professor</div>
+        <div style="margin-top:8px;"><a href="https://www.iitdh.ac.in/user-profile/s-r-mahadeva-prasanna" target="_blank" class="btn-sm">Faculty Profile →</a></div>
+      </div>
+
+      <div class="person-card" style="border-color:rgba(0,194,255,.3);">
+        <img class="person-photo" src="images/people/Shashaank_Aswatha_Mattur.jpeg"
+             onload="this.style.display='block';this.nextElementSibling.style.display='none';"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="person-avatar" style="width:80px;height:80px;font-size:1.1rem;">SAM</div>
+        <div class="person-name">Prof. Shashaank Aswatha Mattur</div>
+        <div class="person-role">Assistant Professor</div>
+        <div style="margin-top:8px;"><a href="https://www.iitdh.ac.in/node/2072" target="_blank" class="btn-sm">Faculty Profile →</a></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════
+       TAB 2 — STAFF
+       ══════════════════════════════ -->
+  <div class="people-panel" id="people-panel-staff" role="tabpanel">
+    <div class="people-grid">
+
+      <!-- EDIT: STAFF — copy this card to add lab staff / project associates -->
+      <div class="person-card">
+        <img class="person-photo" src="images/people/MrutyunjayKS.jpg"
+             alt="Mr. Mrutyunjay K. S."
+             onload="this.style.display='block';this.nextElementSibling.style.display='none';"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="person-avatar">STS</div>
+        <div class="person-name">Mr. Mrutyunjay K. S.</div>
+        <div class="person-role">Senior Technical Superintendent</div>
+      </div>
+
+      <!-- Open position -->
+      <!-- TEMPORARILY HIDDEN — uncomment to restore
+      <div class="person-card open-position">
+        <div class="person-avatar add-slot">+</div>
+        <div class="person-name" style="color:var(--text-muted);">Open Position</div>
+        <div class="person-role">Project Associate / JRF</div>
+        <div style="margin-top:8px;"><a href="contact.html" class="btn-sm">Apply →</a></div>
+      </div>
+      -->
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════
+       TAB 3 — STUDENTS
+       Two subsections: PhD · MS
+       ══════════════════════════════ -->
+  <div class="people-panel" id="people-panel-students" role="tabpanel">
+
+    <!-- ── PhD Students ── -->
+    <div class="students-subsection">
+      <div class="subsection-header">
+        <span class="subsection-label">PhD Students</span>
+        <div class="subsection-line"></div>
+      </div>
+      <!-- EDIT: PhD STUDENTS — copy a card to add more -->
+      <div class="people-grid">
+
+        <div class="person-card">
+          <img class="person-photo" src="images/people/phd1.jpg"
+               alt="PhD Student Name"
+               style="display:none;"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="person-avatar">RS</div>
+          <div class="person-name">Researcher Name</div>
+          <div class="person-role">PhD Scholar</div>
+          <div class="person-topic">Wireless Communications</div>
+        </div>
+
+        <div class="person-card">
+          <img class="person-photo" src="images/people/phd2.jpg"
+               alt="PhD Student Name"
+               style="display:none;"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="person-avatar">AP</div>
+          <div class="person-name">Researcher Name</div>
+          <div class="person-role">PhD Scholar</div>
+          <div class="person-topic">Signal Processing</div>
+        </div>
+
+        <!-- Open PhD position -->
+        <div class="person-card open-position">
+          <div class="person-avatar add-slot">+</div>
+          <div class="person-name" style="color:var(--text-muted);">Open Position</div>
+          <div class="person-role">PhD Admissions Open</div>
+          <div style="margin-top:8px;"><a href="https://www.iitdh.ac.in/phd" target="_blank" class="btn-sm">Apply →</a></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── MTech Students ── -->
+    <div class="students-subsection">
+      <div class="subsection-header">
+        <span class="subsection-label">MTech Students</span>
+        <div class="subsection-line"></div>
+      </div>
+      <!-- EDIT: MTech STUDENTS — copy a card to add more -->
+      <div class="people-grid">
+
+        <div class="person-card">
+          <img class="person-photo" src="images/people/ms1.jpg"
+               alt="MS Student Name"
+               style="display:none;"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="person-avatar">VK</div>
+          <div class="person-name">Student Name</div>
+          <div class="person-role">MS (Research)</div>
+          <div class="person-topic">Channel Estimation</div>
+        </div>
+
+        <div class="person-card">
+          <img class="person-photo" src="images/people/ms2.jpg"
+               alt="MS Student Name"
+               style="display:none;"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="person-avatar">NM</div>
+          <div class="person-name">Student Name</div>
+          <div class="person-role">MS (Research)</div>
+          <div class="person-topic">Radar Signal Processing</div>
+        </div>
+
+        <!-- Open MTech position -->
+        <div class="person-card open-position">
+          <div class="person-avatar add-slot">+</div>
+          <div class="person-name" style="color:var(--text-muted);">Open Position</div>
+          <div class="person-role">MTech Admissions Open</div>
+          <div style="margin-top:8px;"><a href="https://www.iitdh.ac.in/mtech" target="_blank" class="btn-sm">Apply →</a></div>
+        </div>
+
+      </div>
+    </div>
+  </div> <!-- end students panel -->
+
+</section>
+
+<!-- ════════════════════════════════════════
+     FOOTER
+     ════════════════════════════════════════ -->
+<footer>
+  <div>
+    <div class="footer-logo">CSP<span>ML</span></div>
+    <div class="footer-copy" style="margin-top:4px;">Communication, Signal Processing &amp; Machine Learning Laboratory · IIT Dharwad</div>
+  </div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="people.html">People</a>
+    <a href="infrastructure.html">Infrastructure</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="footer-copy">© 2025 CSPML · All rights reserved</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
