@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: cspml-creator/CSPML-lab-website
-  branch: main
+  branch: v3
 
 publish_mode: editorial_workflow
 
@@ -12,81 +12,87 @@ collections:
 
   - name: publications
     label: Publications
-    file: data/publications.json
-    format: json
-    fields:
+    files:
       - name: publications
-        label: Publications
-        widget: list
+        label: Publications List
+        file: data/publications.json
         fields:
-          - { name: title,   label: Title }
-          - { name: authors, label: Authors }
-          - { name: year,    label: Year,   widget: number }
-          - { name: venue,   label: Venue }
-          - name: type
-            label: Type
-            widget: select
-            options: [journal, conference]
-          - { name: recent, label: Recent, widget: boolean, default: false }
+          - name: publications
+            label: Publications
+            widget: list
+            fields:
+              - { name: title,   label: Title,   widget: string }
+              - { name: authors, label: Authors, widget: string }
+              - { name: year,    label: Year,    widget: number }
+              - { name: venue,   label: Venue,   widget: string }
+              - name: type
+                label: Type
+                widget: select
+                options: [journal, conference]
+              - { name: recent, label: Recent, widget: boolean, default: false }
 
   - name: faculty
     label: Faculty
-    file: data/faculty.json
-    format: json
-    fields:
+    files:
       - name: faculty
-        label: Faculty
-        widget: list
+        label: Faculty List
+        file: data/faculty.json
         fields:
-          - { name: name,             label: Name }
-          - { name: role,             label: Role }
-          - { name: initials,         label: Initials }
-          - { name: photo,            label: Photo URL }
-          - { name: profile_url,      label: Profile URL }
-          - { name: research_areas,   label: Research Areas }
+          - name: faculty
+            label: Faculty
+            widget: list
+            fields:
+              - { name: name,           label: Name }
+              - { name: role,           label: Role }
+              - { name: initials,       label: Initials }
+              - { name: photo,          label: Photo URL }
+              - { name: profile_url,    label: Profile URL }
+              - { name: research_areas, label: Research Areas }
 
   - name: students
     label: Students
-    file: data/students.json
-    format: json
-    fields:
-      - name: phd
-        label: PhD Students
-        widget: list
+    files:
+      - name: students
+        label: Students List
+        file: data/students.json
         fields:
-          - { name: name,       label: Name }
-          - { name: initials,   label: Initials }
-          - { name: photo,      label: Photo URL }
-          - { name: status,     label: Status, widget: select, options: [pursuing, graduated] }
-          - { name: supervisor, label: Supervisor }
-          - { name: bio,        label: Bio }
-      - name: ms
-        label: MS Students
-        widget: list
-        fields:
-          - { name: name,       label: Name }
-          - { name: initials,   label: Initials }
-          - { name: photo,      label: Photo URL }
-          - { name: status,     label: Status, widget: select, options: [pursuing, graduated] }
-          - { name: supervisor, label: Supervisor }
-          - { name: bio,        label: Bio }
-      - name: mtech
-        label: MTech Students
-        widget: list
-        fields:
-          - { name: name,       label: Name }
-          - { name: initials,   label: Initials }
-          - { name: photo,      label: Photo URL }
-          - { name: status,     label: Status, widget: select, options: [pursuing, graduated] }
-          - { name: supervisor, label: Supervisor }
-          - { name: bio,        label: Bio }
-      - name: project
-        label: Project Students
-        widget: list
-        fields:
-          - { name: name,       label: Name }
-          - { name: initials,   label: Initials }
-          - { name: photo,      label: Photo URL }
-          - { name: status,     label: Status, widget: select, options: [pursuing, graduated] }
-          - { name: supervisor, label: Supervisor }
-          - { name: bio,        label: Bio }
+          - name: phd
+            label: PhD Students
+            widget: list
+            fields:
+              - { name: name,       label: Name }
+              - { name: initials,   label: Initials }
+              - { name: photo,      label: Photo URL }
+              - { name: status,     label: Status, widget: select, options: [pursuing, graduated] }
+              - { name: supervisor, label: Supervisor }
+              - { name: bio,        label: Bio }
+          - name: ms
+            label: MS Students
+            widget: list
+            fields:
+              - { name: name,       label: Name }
+              - { name: initials,   label: Initials }
+              - { name: photo,      label: Photo URL }
+              - { name: status,     label: Status, widget: select, options: [pursuing, graduated] }
+              - { name: supervisor, label: Supervisor }
+              - { name: bio,        label: Bio }
+          - name: mtech
+            label: MTech Students
+            widget: list
+            fields:
+              - { name: name,       label: Name }
+              - { name: initials,   label: Initials }
+              - { name: photo,      label: Photo URL }
+              - { name: status,     label: Status, widget: select, options: [pursuing, graduated] }
+              - { name: supervisor, label: Supervisor }
+              - { name: bio,        label: Bio }
+          - name: project
+            label: Project Students
+            widget: list
+            fields:
+              - { name: name,       label: Name }
+              - { name: initials,   label: Initials }
+              - { name: photo,      label: Photo URL }
+              - { name: status,     label: Status, widget: select, options: [pursuing, graduated] }
+              - { name: supervisor, label: Supervisor }
+              - { name: bio,        label: Bio }
