@@ -1,0 +1,24 @@
+/* ===========================================
+   animations.css — Sub-page Motion
+   CSPML · IIT Dharwad
+   NOTE: Core animations (fadeUp, pulse, reveal)
+   are defined in root style.css. This file only
+   adds the people-panel fade-in needed by JS.
+   =========================================== */
+
+/* ── People panel entrance ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+/* ── Respect reduced-motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration:        0.01ms !important;
+    animation-iteration-count: 1      !important;
+    transition-duration:       0.01ms !important;
+    transition-delay:          0ms    !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+}

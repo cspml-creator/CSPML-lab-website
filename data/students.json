@@ -1,0 +1,266 @@
+{
+  "phd": [
+    {
+      "name": "Shruti Maralappanavar",
+      "initials": "SM",
+      "photo": "images/people/student_photos/Shruti_M.jpeg",
+      "status": "pursuing",
+      "supervisor": "Prof. B N Bharath",
+      "bio": "Federated Learning, Bilevel Optimization"
+    },
+    {
+      "name": "Sumit Sah",
+      "initials": "SS",
+      "photo": "images/people/student_photos/20230520_150315 - Sumit Sah.jpg",
+      "status": "pursuing",
+      "supervisor": "Prof. B N Bharath",
+      "bio": "Online Learning, Non-convex Optimization"
+    },
+    {
+      "name": "Gangadhar Karevvanavar",
+      "initials": "GK",
+      "photo": "images/people/student_photos/photo-Gangadhar - Gangadhar Karevvanavar.jpeg",
+      "status": "pursuing",
+      "supervisor": "Prof. Rajshekhar V Bhat",
+      "bio": "Wireless Communications, Coding Theory"
+    },
+    {
+      "name": "Harini Grama Srinath",
+      "initials": "HGS",
+      "photo": "images/people/student_photos/Harini-233x300.jpg",
+      "status": "graduated",
+      "supervisor": "Prof. S R Mahadeva Prasanna",
+      "bio": "Speech Processing, Deep Learning"
+    },
+    {
+      "name": "Jagadeeshchandra Shetty",
+      "initials": "JS",
+      "photo": "images/people/student_photos/JagadeeshchandraShetty_EE24DP002.jpg - Jagadeeshchandra Shetty.jpg",
+      "status": "pursuing",
+      "supervisor": "Prof. Naveen M. B.",
+      "bio": "Wireless Communications, NOMA"
+    },
+    {
+      "name": "Vivek Pathak",
+      "initials": "VP",
+      "photo": "images/people/student_photos/VivekPathak_EE21DP004 - Vivek Pathak.jpg",
+      "status": "pursuing",
+      "supervisor": "Prof. Rahul J. Pandya",
+      "bio": "6G Networks, Resource Allocation, Deep Learning"
+    },
+    {
+      "name": "Faizan Shafi Darzi",
+      "initials": "FSD",
+      "photo": "images/people/student_photos/FAIZAN SHAFI DARZI.jpg",
+      "status": "pursuing",
+      "supervisor": "Prof. Naveen M. B.",
+      "bio": "Wireless Communications, Signal Processing"
+    },
+    {
+      "name": "Jagabandhu Mishra",
+      "initials": "JM",
+      "photo": "images/people/student_photos/Jagabandhu.jpeg",
+      "status": "graduated",
+      "supervisor": "Prof. S R Mahadeva Prasanna",
+      "bio": "Spoken Language Processing, Self-Supervised Learning"
+    },
+    {
+      "name": "Chandan R.",
+      "initials": "CR",
+      "photo": "images/people/student_photos/Chandan R_EE23DP002.JPG - CHANDAN R.jpg",
+      "status": "pursuing",
+      "supervisor": "Prof. Rajshekhar V Bhat",
+      "bio": "Wireless Communications, Deep Learning"
+    },
+    {
+      "name": "Pranav Shadanan Deshpande",
+      "initials": "PSD",
+      "photo": "images/people/student_photos/PranavDeshpande_EE25DP004 - Pranav Shadanan Deshpande.jpg",
+      "status": "pursuing",
+      "supervisor": "Prof. B N Bharath",
+      "bio": "Machine Learning, Optimization"
+    },
+    {
+      "name": "Jinumol K. M.",
+      "initials": "JKM",
+      "photo": "images/people/student_photos/jinumol k m_ee25dp002 - Jinumol K M.jpg",
+      "status": "pursuing",
+      "supervisor": "Prof. S R Mahadeva Prasanna",
+      "bio": "Speech Processing"
+    },
+    {
+      "name": "Ajul Dinesh",
+      "initials": "AD",
+      "photo": "images/people/student_photos/Ajul_D.jpg",
+      "status": "graduated",
+      "supervisor": "Prof. Ameer K Mulla",
+      "bio": "Control Systems, Robust Control"
+    },
+    {
+      "name": "Jeslin Jacob M",
+      "initials": "JJM",
+      "photo": "images/people/student_photos/Jeslin-Jacob-M.-252x300.jpg",
+      "status": "graduated",
+      "supervisor": "Prof. Naveen M. B.",
+      "bio": "Wireless Communications"
+    },
+    {
+      "name": "Seema Khadirnaikar",
+      "initials": "SK",
+      "photo": "images/people/student_photos/Seema_K.jpg",
+      "status": "graduated",
+      "supervisor": "Prof. S. R. M. Prasanna",
+      "bio": "machine learning"
+    }
+  ],
+  "ms": [
+    {
+      "name": "Jyoti S. Shukla",
+      "initials": "JSS",
+      "photo": "images/people/student_photos/Jyoti-Shukla-768x1024.jpg",
+      "status": "graduated",
+      "supervisor": "Prof. Rahul J. Pandya",
+      "bio": "Deep Learning, Remote Sensing, Drought Prediction"
+    },
+    {
+      "name": "Sourav Banerjee",
+      "initials": "SB",
+      "photo": "images/people/student_photos/Sourav-Banerjee-201x300.jpg",
+      "status": "pursuing",
+      "supervisor": "Prof. Rajshekhar V Bhat",
+      "bio": "Wireless Communications"
+    },
+    {
+      "name": "Sawan Singh Mahara",
+      "initials": "SSM",
+      "photo": "images/people/student_photos/Sawan-Singh-Mahara-768x768.jpeg",
+      "status": "graduated",
+      "supervisor": "Prof. B N Bharath",
+      "bio": "Multi-Task Federated Edge Learning"
+    },
+    {
+      "name": "Akshay A Jagajampi",
+      "initials": "AAJ",
+      "photo": "images/people/student_photos/Akshay A Jagajampi.jpeg",
+      "status": "graduated",
+      "supervisor": "Prof. Naveen M. B.",
+      "bio": "Wireless Communications, IoT"
+    },
+    {
+      "name": "Praveen Kumar N",
+      "initials": "PKN",
+      "photo": "images/people/student_photos/Praveen-Kumar-N-768x769.jpg",
+      "status": "graduated",
+      "supervisor": "Prof. Naveen M. B.",
+      "bio": "NB-IoT, Grant-Free NOMA, Active User Detection"
+    },
+    {
+      "name": "Sumanth S. Raikar",
+      "initials": "SSR",
+      "photo": "images/people/student_photos/Sumanth S Raikar.jpeg",
+      "status": "graduated",
+      "supervisor": "Prof. Rajshekhar V Bhat",
+      "bio": "Age of Information, Error Correction Codes"
+    },
+    {
+      "name": "Rishabh Roy",
+      "initials": "RR",
+      "photo": "images/people/student_photos/Rishabh Roy.jpeg",
+      "status": "graduated",
+      "supervisor": "Prof. Rajshekhar V Bhat",
+      "bio": "Timely Throughput, IEEE 802.11ax, Target Wake Time"
+    },
+    {
+      "name": "Jayanth S.",
+      "initials": "JaS",
+      "photo": "images/people/student_photos/Jayanth_S.jpeg",
+      "status": "graduated",
+      "supervisor": "Prof. Rajshekhar V Bhat",
+      "bio": "Age of Processed Information, Multiple Access Channels"
+    },
+    {
+      "name": "Girish Kumar Gupta",
+      "initials": "GKG",
+      "photo": "images/people/student_photos/Girish Kumar Gupta.jpeg",
+      "status": "graduated",
+      "supervisor": "Prof. Rajshekhar V Bhat",
+      "bio": "ML for Satellite-Derived Bathymetry"
+    },
+    {
+      "name": "Ayush Agarwal",
+      "initials": "AA",
+      "photo": "images/people/student_photos/Ayush-Agarwal-768x705.jpg",
+      "status": "graduated",
+      "supervisor": "Prof. S R Mahadeva Prasanna",
+      "bio": "Automatic Speech Recognition"
+    },
+    {
+      "name": "Kumar Kaustubh",
+      "initials": "KK",
+      "photo": "images/people/student_photos/Kumar-Kaustubh.jpg",
+      "status": "graduated",
+      "supervisor": "Prof. S R Mahadeva Prasanna",
+      "bio": "speech signal processing"
+    },
+    {
+      "name": "Sougata Mukherjee",
+      "initials": "SM",
+      "photo": "images/people/student_photos/Sougata-Mukherjee.jpg",
+      "status": "graduated",
+      "supervisor": "Prof. S R Mahadeva Prasanna",
+      "bio": "speech signal processing"
+    }
+  ],
+  "mtech": [
+    {
+      "name": "Patnam Dhanush",
+      "initials": "PD",
+      "photo": "images/people/student_photos/Patnam Dhanush.jpeg",
+      "status": "pursuing",
+      "supervisor": "Prof. Shashaank A. Mattur",
+      "bio": ""
+    },
+    {
+      "name": "Bhoomika",
+      "initials": "BH",
+      "photo": "",
+      "status": "pursuing",
+      "supervisor": "Prof. Shashaank A. Mattur",
+      "bio": ""
+    },
+    {
+      "name": "Abhinav Singh",
+      "initials": "AS",
+      "photo": "images/people/student_photos/Abhinav Singh.jpeg",
+      "status": "pursuing",
+      "supervisor": "Prof. Shashaank A. Mattur",
+      "bio": ""
+    },
+    {
+      "name": "Alok",
+      "initials": "ALK",
+      "photo": "",
+      "status": "graduated",
+      "supervisor": "Prof. Shashaank A. Mattur",
+      "bio": ""
+    },
+    {
+      "name": "Lokesh Kumar",
+      "initials": "LK",
+      "photo": "images/people/student_photos/Lokesh Kumar.jpeg",
+      "status": "graduated",
+      "supervisor": "Prof. Shashaank A. Mattur",
+      "bio": "EEG Signal Processing, Depression Detection, Deep Learning"
+    }
+  ],
+  "project": [
+    {
+      "name": "Gaurav Shukla",
+      "initials": "GS",
+      "photo": "",
+      "status": "current",
+      "supervisor": "",
+      "bio": ""
+    }
+  ]
+}

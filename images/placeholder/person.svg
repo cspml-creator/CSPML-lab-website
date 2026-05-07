@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#111d35"/>
+  <circle cx="200" cy="155" r="65" fill="#1a2f54" stroke="#00c2ff" stroke-width="1.5" stroke-opacity="0.3"/>
+  <circle cx="200" cy="148" r="42" fill="#0d1f3c"/>
+  <circle cx="200" cy="138" r="22" fill="#1a3060"/>
+  <ellipse cx="200" cy="290" rx="80" ry="50" fill="#1a2f54"/>
+  <text x="200" y="365" font-family="sans-serif" font-size="13" fill="#8899bb" text-anchor="middle">Add photo to images/people/</text>
+</svg>
