@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: cspml-creator/CSPML-lab-website
+  name: git-gateway
   branch: v3
 
 publish_mode: editorial_workflow
