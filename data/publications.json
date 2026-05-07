@@ -223,6 +223,14 @@
       "authors": "L. Kumar, K. Kaustubh, S. A. Mattur, S. R. M. Prasanna",
       "venue": "International Conference of the Oriental COCOSDA, IEEE 2024",
       "recent": false
+    },
+    {
+      "recent": true,
+      "title": "Channel-Adaptive Robust Aggregation for Over-the-Air Federated Learning in Heterogeneous Networks",
+      "authors": "Zubaida Fatima, Zubair Shaban, Yusuf Jamal, Nazreen Shah, Ranjitha Prasad, and B. N. Bharath, ",
+      "year": 2026,
+      "venue": "Barcelona, Spain",
+      "type": "conference"
     }
   ]
 }
