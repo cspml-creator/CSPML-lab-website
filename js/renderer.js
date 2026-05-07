@@ -82,8 +82,8 @@ function publicationCardHTML(p) {
 async function renderAll() {
   try {
     const [faculty, staff, students, publications] = await Promise.all([
-      loadJSON('data/faculty.json'),
-      loadJSON('data/staff.json'),
+      loadJSON('data/faculty.json').then(d => d.faculty || d),
+      loadJSON('data/staff.json').then(d => d.staff || d),
       loadJSON('data/students.json'),
       loadJSON('data/publications.json').then(d => d.publications || d),
     ]);

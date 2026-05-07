@@ -30,6 +30,23 @@ collections:
                 options: [journal, conference]
               - { name: recent, label: Recent, widget: boolean, default: false }
 
+  - name: staff
+    label: Staff
+    files:
+      - name: staff
+        label: Staff List
+        file: data/staff.json
+        fields:
+          - name: staff
+            label: Staff
+            widget: list
+            fields:
+              - { name: name,     label: Name }
+              - { name: role,     label: Role }
+              - { name: initials, label: Initials }
+              - { name: photo,    label: Photo URL }
+              - { name: bio,      label: Bio }
+
   - name: faculty
     label: Faculty
     files:

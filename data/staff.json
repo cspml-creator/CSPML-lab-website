@@ -1,9 +1,11 @@
-[
-  {
-    "name": "Mr. Mrutyunjay K. S.",
-    "role": "Senior Technical Superintendent",
-    "initials": "MKS",
-    "photo": "images/people/MrutyunjayKS.jpg",
-    "bio": "Manages the lab's technical infrastructure, supporting research activities, experimental setups, and computational resources."
-  }
-]
+{
+  "staff": [
+    {
+      "name": "Mr. Mrutyunjay K. S.",
+      "role": "Senior Technical Superintendent",
+      "initials": "MKS",
+      "photo": "images/people/MrutyunjayKS.jpg",
+      "bio": "Manages the lab's technical infrastructure, supporting research activities, experimental setups, and computational resources."
+    }
+  ]
+}
