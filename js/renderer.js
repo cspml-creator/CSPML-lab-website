@@ -85,7 +85,7 @@ async function renderAll() {
       loadJSON('data/faculty.json'),
       loadJSON('data/staff.json'),
       loadJSON('data/students.json'),
-      loadJSON('data/publications.json'),
+      loadJSON('data/publications.json').then(d => d.publications || d),
     ]);
 
     /* ── Faculty ── */
