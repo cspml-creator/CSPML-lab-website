@@ -1,68 +1,66 @@
-{
-  "faculty": [
-    {
-      "name": "Prof. Ameer K Mulla",
-      "role": "Associate Professor",
-      "initials": "AKM",
-      "photo": "images/people/Ameer_Mulla.jpg",
-      "profile_url": "https://www.iitdh.ac.in/~ameer/",
-      "research_areas": "Control Systems · Autonomous Navigation · Mobile Robotics · Post-Quantum Secure Networked Control"
-    },
-    {
-      "name": "Prof. B N Bharath",
-      "role": "Associate Professor",
-      "initials": "BNB",
-      "photo": "images/people/Prof_BHaratahBN.jpg",
-      "profile_url": "https://bharathbettagere.github.io/mywebpage/",
-      "research_areas": "Machine Learning · Federated Learning · Distributed Optimization · Signal Processing · Wireless Networks"
-    },
-    {
-      "name": "Prof. Gopal Krishna Kamath M",
-      "role": "Assistant Professor",
-      "initials": "GKK",
-      "photo": "images/people/Gopal_Kamath.jpg",
-      "profile_url": "https://sites.google.com/view/gopalkamath/home",
-      "research_areas": "Cyber-Physical Systems Security · Intelligent Transportation · Delayed Dynamical Systems · Communication-Control Co-Design"
-    },
-    {
-      "name": "Prof. Naveen M. B.",
-      "role": "Associate Professor",
-      "initials": "NMB",
-      "photo": "images/people/NaveenMB.jpeg",
-      "profile_url": "https://iitdh.ac.in/~naveenmb/",
-      "research_areas": "Wireless Communications · 5G/Beyond-5G · Massive MIMO · NOMA · IoT · ML for Communications"
-    },
-    {
-      "name": "Prof. Rahul Jashvantbhai Pandya",
-      "role": "Associate Professor",
-      "initials": "RJP",
-      "photo": "images/people/Rahul_Pandya.jpg",
-      "profile_url": "https://sites.google.com/iitdh.ac.in/rpandya",
-      "research_areas": "AI · Machine Learning · Deep Learning · Wireless Communication · 6G Semantic Communication"
-    },
-    {
-      "name": "Prof. Rajshekhar V Bhat",
-      "role": "Assistant Professor",
-      "initials": "RVB",
-      "photo": "images/people/Rajshekhar_V_Bhat.jpeg",
-      "profile_url": "https://rajshekharvbhat.github.io/",
-      "research_areas": "Wireless Communications · Age of Information · Energy Harvesting · Deep Learning · 6G · Semantic Communications"
-    },
-    {
-      "name": "Prof. S R Mahadeva Prasanna",
-      "role": "Professor",
-      "initials": "SRMP",
-      "photo": "images/people/Mahadeva_Prasanna.jpeg",
-      "profile_url": "https://sites.google.com/iitdh.ac.in/prasanna/home",
-      "research_areas": "Speech Processing · Pattern Recognition · Machine Learning · Deep Learning · Speaker Recognition"
-    },
-    {
-      "name": "Prof. Shashaank Aswatha Mattur",
-      "role": "Assistant Professor",
-      "initials": "SAM",
-      "photo": "images/people/Shashaank_Aswatha_Mattur.jpeg",
-      "profile_url": "https://in.linkedin.com/in/beingmas",
-      "research_areas": "Image Processing · Computer Vision · Pattern Recognition · Remote Sensing · Machine Learning"
-    }
-  ]
-}
+[
+  {
+    "name": "Prof. Ameer K Mulla",
+    "role": "Associate Professor",
+    "initials": "AKM",
+    "photo": "images/people/Ameer_Mulla.jpg",
+    "profile_url": "https://www.iitdh.ac.in/~ameer/",
+    "research_areas": "Control Systems · Autonomous Navigation · Mobile Robotics · Post-Quantum Secure Networked Control"
+  },
+  {
+    "name": "Prof. B N Bharath",
+    "role": "Associate Professor",
+    "initials": "BNB",
+    "photo": "images/people/Prof_BHaratahBN.jpg",
+    "profile_url": "https://bharathbettagere.github.io/mywebpage/",
+    "research_areas": "Machine Learning · Federated Learning · Distributed Optimization · Signal Processing · Wireless Networks"
+  },
+  {
+    "name": "Prof. Gopal Krishna Kamath M",
+    "role": "Assistant Professor",
+    "initials": "GKK",
+    "photo": "images/people/Gopal_Kamath.jpg",
+    "profile_url": "https://sites.google.com/view/gopalkamath/home",
+    "research_areas": "Cyber-Physical Systems Security · Intelligent Transportation · Delayed Dynamical Systems · Communication-Control Co-Design"
+  },
+  {
+    "name": "Prof. Naveen M. B.",
+    "role": "Associate Professor",
+    "initials": "NMB",
+    "photo": "images/people/NaveenMB.jpeg",
+    "profile_url": "https://iitdh.ac.in/~naveenmb/",
+    "research_areas": "Wireless Communications · 5G/Beyond-5G · Massive MIMO · NOMA · IoT · ML for Communications"
+  },
+  {
+    "name": "Prof. Rahul Jashvantbhai Pandya",
+    "role": "Associate Professor",
+    "initials": "RJP",
+    "photo": "images/people/Rahul_Pandya.jpg",
+    "profile_url": "https://sites.google.com/iitdh.ac.in/rpandya",
+    "research_areas": "AI · Machine Learning · Deep Learning · Wireless Communication · 6G Semantic Communication"
+  },
+  {
+    "name": "Prof. Rajshekhar V Bhat",
+    "role": "Assistant Professor",
+    "initials": "RVB",
+    "photo": "images/people/Rajshekhar_V_Bhat.jpeg",
+    "profile_url": "https://rajshekharvbhat.github.io/",
+    "research_areas": "Wireless Communications · Age of Information · Energy Harvesting · Deep Learning · 6G · Semantic Communications"
+  },
+  {
+    "name": "Prof. S R Mahadeva Prasanna",
+    "role": "Professor",
+    "initials": "SRMP",
+    "photo": "images/people/Mahadeva_Prasanna.jpeg",
+    "profile_url": "https://sites.google.com/iitdh.ac.in/prasanna/home",
+    "research_areas": "Speech Processing · Pattern Recognition · Machine Learning · Deep Learning · Speaker Recognition"
+  },
+  {
+    "name": "Prof. Shashaank Aswatha Mattur",
+    "role": "Assistant Professor",
+    "initials": "SAM",
+    "photo": "images/people/Shashaank_Aswatha_Mattur.jpeg",
+    "profile_url": "https://in.linkedin.com/in/beingmas",
+    "research_areas": "Image Processing · Computer Vision · Pattern Recognition · Remote Sensing · Machine Learning"
+  }
+]
