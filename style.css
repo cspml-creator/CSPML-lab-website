@@ -976,13 +976,13 @@ button { font-family: var(--font-body); }
   font-size: 0.67rem;
   font-weight: 600;
   letter-spacing: 0.03em;
-  color: var(--indigo);
-  background: var(--indigo-light);
+  color: var(--text-muted);
+  background: rgba(0, 0, 0, 0.06);
   padding: 3px 10px;
   border-radius: 50px;
   transition: background var(--t-base) var(--ease-smooth);
 }
-.r-card:hover .r-tags span { background: rgba(79, 70, 229, 0.14); }
+.r-card:hover .r-tags span { background: rgba(0, 0, 0, 0.1); }
 
 
 /* ═══════════════════════════════════════════
