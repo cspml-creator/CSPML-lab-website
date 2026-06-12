@@ -1,6 +1,6 @@
 [
   {
-    "name": "Prof. Ameer K Mulla",
+    "name": "Ameer K Mulla",
     "role": "Associate Professor",
     "initials": "AKM",
     "photo": "images/people/Ameer_Mulla.jpg",
@@ -8,7 +8,7 @@
     "research_areas": "Control Systems · Autonomous Navigation · Mobile Robotics · Post-Quantum Secure Networked Control"
   },
   {
-    "name": "Prof. B N Bharath",
+    "name": "B N Bharath",
     "role": "Associate Professor",
     "initials": "BNB",
     "photo": "images/people/Prof_BHaratahBN.jpg",
@@ -16,7 +16,7 @@
     "research_areas": "Machine Learning · Federated Learning · Distributed Optimization · Signal Processing · Wireless Networks"
   },
   {
-    "name": "Prof. Gopal Krishna Kamath M",
+    "name": "Gopal Krishna Kamath M",
     "role": "Assistant Professor",
     "initials": "GKK",
     "photo": "images/people/Gopal_Kamath.jpg",
@@ -24,7 +24,7 @@
     "research_areas": "Cyber-Physical Systems Security · Intelligent Transportation · Delayed Dynamical Systems · Communication-Control Co-Design"
   },
   {
-    "name": "Prof. Naveen M. B.",
+    "name": "Naveen M. B.",
     "role": "Associate Professor",
     "initials": "NMB",
     "photo": "images/people/NaveenMB.jpeg",
@@ -32,7 +32,7 @@
     "research_areas": "Wireless Communications · 5G/Beyond-5G · Massive MIMO · NOMA · IoT · ML for Communications"
   },
   {
-    "name": "Prof. Rahul Jashvantbhai Pandya",
+    "name": "Rahul Jashvantbhai Pandya",
     "role": "Associate Professor",
     "initials": "RJP",
     "photo": "images/people/Rahul_Pandya.jpg",
@@ -40,7 +40,7 @@
     "research_areas": "AI · Machine Learning · Deep Learning · Wireless Communication · 6G Semantic Communication"
   },
   {
-    "name": "Prof. Rajshekhar V Bhat",
+    "name": "Rajshekhar V Bhat",
     "role": "Assistant Professor",
     "initials": "RVB",
     "photo": "images/people/Rajshekhar_V_Bhat.jpeg",
@@ -48,7 +48,7 @@
     "research_areas": "Wireless Communications · Age of Information · Energy Harvesting · Deep Learning · 6G · Semantic Communications"
   },
   {
-    "name": "Prof. S R Mahadeva Prasanna",
+    "name": "S R Mahadeva Prasanna",
     "role": "Professor",
     "initials": "SRMP",
     "photo": "images/people/Mahadeva_Prasanna.jpeg",
@@ -56,7 +56,7 @@
     "research_areas": "Speech Processing · Pattern Recognition · Machine Learning · Deep Learning · Speaker Recognition"
   },
   {
-    "name": "Prof. Shashaank Aswatha Mattur",
+    "name": "Shashaank Aswatha Mattur",
     "role": "Assistant Professor",
     "initials": "SAM",
     "photo": "images/people/Shashaank_Aswatha_Mattur.jpeg",
