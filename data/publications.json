@@ -70,5 +70,53 @@
     "authors": "A. K. Dubey, S. R. M. Prasanna, S. Dandapat",
     "venue": "Circuits, Systems, and Signal Processing",
     "recent": false
+  },
+  {
+    "year": 2026,
+    "type": "Journal",
+    "title": "Dissipativity-Based Robust Output Feedback Control for Finite-Time Boundedness of Polytopic Uncertain Systems",
+    "authors": "Ajul Dinesh, Ameer K. Mulla",
+    "venue": "International Journal of Control, vol. 99, no. 3, pp. 867-882, Mar 2026",
+    "recent": true
+  },
+  {
+    "year": 2025,
+    "type": "Conference",
+    "title": "Minimum Time Consensus for a Class of Second Order LTI Systems Under Fuel Constraints",
+    "authors": "Akansha Rautela, Deepak Patil, Ameer K. Mulla, Indra Narayan Kar",
+    "venue": "Joint SSSC, TDS, COSY 2025, Gif-sur-Yvette, France (accepted)",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "Conference",
+    "title": "Minimum Time Consensus for Multi-Agent Systems Under Fuel Constraints",
+    "authors": "Akansha Rautela, Deepak Patil, Ameer K. Mulla, Indra Narayan Kar",
+    "venue": "Joint SSSC, TDS, COSY 2025, Gif-sur-Yvette, France (accepted)",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "Conference",
+    "title": "EEG-ViLSTM: A Deep Learning Approach for Depression Detection Using EEG Signals",
+    "authors": "Lokesh Kumar, K. Kaustubh, T. Rajkhowa, Shashaank Aswatha Mattur",
+    "venue": "IEEE National Conference on Communications (NCC 2025)",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "Conference",
+    "title": "HDR Video Composition using Differently Exposed Stereo LDR Videos",
+    "authors": "Shashaank M. Aswatha, Chaker Larabi",
+    "venue": "IEEE Visual Communications and Image Processing (VCIP 2025, accepted)",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "Conference",
+    "title": "Estimation of Above Ground Biomass in Agro-forestry Plots using Very High Resolution Optical Images",
+    "authors": "Chandan R., Shashaank M. Aswatha, J. Mukhopadhyay, K. Mallick",
+    "venue": "India Geoscience and Remote Sensing Symposium (IEEE InGARSS 2025, accepted)",
+    "recent": false
   }
 ]
