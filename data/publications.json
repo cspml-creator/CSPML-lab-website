@@ -16,6 +16,30 @@
     "recent": true
   },
   {
+    "year": 2026,
+    "type": "Journal",
+    "title": "Dissipativity-Based Robust Output Feedback Control for Finite-Time Boundedness of Polytopic Uncertain Systems",
+    "authors": "Ajul Dinesh, Ameer K. Mulla",
+    "venue": "International Journal of Control, vol. 99, no. 3, pp. 867-882, Mar 2026",
+    "recent": true
+  },
+  {
+    "year": 2026,
+    "type": "journal",
+    "title": "AI/ML for VLSI Chip Design Automation: A Comprehensive Survey",
+    "authors": "Jayashree M. Sabarad, Sridhar Iyer, Rahul J. Pandya",
+    "venue": "Proceedings of the Indian National Science Academy (PINSA), Mar 2026",
+    "recent": true
+  },
+  {
+    "year": 2026,
+    "type": "journal",
+    "title": "Integrating Large Language Models with Computer Vision: A Comprehensive Review",
+    "authors": "Sridhar Iyer Priyanshu Rao, Raghuveer Verma, Prajwal N. Prasad, Nihar Sagar G., Rahul Jashvantbhai Pandya",
+    "venue": "SSRN",
+    "recent": true
+  },
+  {
     "year": 2025,
     "type": "journal",
     "title": "Dissipativity-based Decentralized Robust Output Feedback Control for Finite-time Boundedness of Uncertain Interconnected Systems",
@@ -62,14 +86,6 @@
     "authors": "A. K. Dubey, S. R. M. Prasanna, S. Dandapat",
     "venue": "Circuits, Systems, and Signal Processing",
     "recent": false
-  },
-  {
-    "year": 2026,
-    "type": "Journal",
-    "title": "Dissipativity-Based Robust Output Feedback Control for Finite-Time Boundedness of Polytopic Uncertain Systems",
-    "authors": "Ajul Dinesh, Ameer K. Mulla",
-    "venue": "International Journal of Control, vol. 99, no. 3, pp. 867-882, Mar 2026",
-    "recent": true
   },
   {
     "year": 2025,
@@ -150,22 +166,6 @@
     "authors": "Vivek Pathak, Rahul J. Pandya",
     "venue": "IEEE ANTS 2025, Dec 2025",
     "recent": false
-  },
-  {
-    "year": 2026,
-    "type": "journal",
-    "title": "AI/ML for VLSI Chip Design Automation: A Comprehensive Survey",
-    "authors": "Jayashree M. Sabarad, Sridhar Iyer, Rahul J. Pandya",
-    "venue": "Proceedings of the Indian National Science Academy (PINSA), Mar 2026",
-    "recent": false
-  },
-  {
-    "year": 2026,
-    "type": "journal",
-    "title": "Integrating Large Language Models with Computer Vision: A Comprehensive Review",
-    "authors": "Sridhar Iyer Priyanshu Rao, Raghuveer Verma, Prajwal N. Prasad, Nihar Sagar G., Rahul Jashvantbhai Pandya",
-    "venue": "SSRN",
-    "recent": true
   },
   {
     "year": 2025,
