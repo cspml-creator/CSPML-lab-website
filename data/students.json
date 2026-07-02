@@ -4,7 +4,7 @@
       "name": "Shruti Maralappanavar",
       "initials": "SM",
       "photo": "images/people/student_photos/Shruti_M.jpeg",
-      "status": "pursuing",
+      "status": "graduated",
       "supervisor": "Prof. B N Bharath",
       "bio": "Federated Learning, Bilevel Optimization"
     },
@@ -12,7 +12,7 @@
       "name": "Sumit Sah",
       "initials": "SS",
       "photo": "images/people/student_photos/20230520_150315 - Sumit Sah.jpg",
-      "status": "pursuing",
+      "status": "graduated",
       "supervisor": "Prof. B N Bharath",
       "bio": "Online Learning, Non-convex Optimization"
     },
@@ -44,7 +44,7 @@
       "name": "Vivek Pathak",
       "initials": "VP",
       "photo": "images/people/student_photos/VivekPathak_EE21DP004 - Vivek Pathak.jpg",
-      "status": "pursuing",
+      "status": "graduated",
       "supervisor": "Prof. Rahul J. Pandya",
       "bio": "6G Networks, Resource Allocation, Deep Learning"
     },
@@ -111,6 +111,22 @@
       "status": "graduated",
       "supervisor": "Prof. S. R. M. Prasanna",
       "bio": "machine learning"
+    },
+    {
+      "name": "Vishweshkumar Aithal",
+      "initials": "VA",
+      "photo": "images/people/student_photos/VishweshkumarAithal.jpg",
+      "status": "pursuing",
+      "supervisor": "Prof. Rahul J. Pandya",
+      "bio": "Wireless Communication, Sematic Communication, Deep Learning"
+    },
+    {
+      "name": "H Srikanth Kamath",
+      "initials": "HSK",
+      "photo": "images/people/student_photos/SRIKANTH H KAMATH.png",
+      "status": "pursuing",
+      "supervisor": "Prof. Rahul J. Pandya",
+      "bio": "Semantic Communication in 6G"
     }
   ],
   "ms": [
@@ -251,6 +267,38 @@
       "status": "graduated",
       "supervisor": "Prof. Shashaank A. Mattur",
       "bio": "EEG Signal Processing, Depression Detection, Deep Learning"
+    },
+    {
+      "name": "Abdul Samad Shaik",
+      "initials": "ASS",
+      "photo": "images/people/student_photos/Samad.jpeg",
+      "status": "graduated",
+      "supervisor": "Prof. Rahul J. Pandya",
+      "bio": "Machine Learning, Deep Learning, and Generative AI"
+    },
+    {
+      "name": "B Hemanth",
+      "initials": "BH",
+      "photo": "",
+      "status": "pursuing",
+      "supervisor": "Prof. Rahul J. Pandya",
+      "bio": ""
+    },
+    {
+      "name": "Himanshu Prakash",
+      "initials": "HP",
+      "photo": "",
+      "status": "pursuing",
+      "supervisor": "Prof. Rahul J. Pandya",
+      "bio": ""
+    },
+    {
+      "name": "Nunna Namratha",
+      "initials": "NN",
+      "photo": "",
+      "status": "pursuing",
+      "supervisor": "Prof. Rahul J. Pandya",
+      "bio": ""
     }
   ],
   "project": [

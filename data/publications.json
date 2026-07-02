@@ -57,14 +57,6 @@
   },
   {
     "year": 2025,
-    "type": "conference",
-    "title": "Deep Learning Enabled Segmentation, Classification and Risk Assessment of Cervical Cancer",
-    "authors": "A. S. Shaik, S. M. Aswatha, R. J. Pandya",
-    "venue": "arXiv preprint, 2025",
-    "recent": false
-  },
-  {
-    "year": 2025,
     "type": "journal",
     "title": "Spectral Analysis Based Objective Assessment of Hypernasality in Cleft Palate Speech: A Review",
     "authors": "A. K. Dubey, S. R. M. Prasanna, S. Dandapat",
@@ -117,6 +109,78 @@
     "title": "Estimation of Above Ground Biomass in Agro-forestry Plots using Very High Resolution Optical Images",
     "authors": "Chandan R., Shashaank M. Aswatha, J. Mukhopadhyay, K. Mallick",
     "venue": "India Geoscience and Remote Sensing Symposium (IEEE InGARSS 2025, accepted)",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "conference",
+    "title": "Neuro-Symbolic AI: Pioneering Semantic Communication for 6G Wireless Networks",
+    "authors": "Faizan Shafi, Ashwin Waghmare, Rahul J. Pandya, Sridhar Iyer",
+    "venue": "Conference Paper, 2025 (venue TBC — May 2025 per ResearchGate)",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "conference",
+    "title": "Deep Learning and Natural Language Processing Integrated Gold Price Forecasting",
+    "authors": "G. Kirtika, Rahul J. Pandya, Sridhar Iyer",
+    "venue": "Conference Paper, 2025 (venue TBC — May 2025 per ResearchGate)",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "conference",
+    "title": "Coalitional Game Theory and Bankruptcy Game Integrated Resource Allocation for Tier-2 6G-HetNets: A Hybridization Approach",
+    "authors": "Vivek Pathak, Rahul J. Pandya",
+    "venue": "IEEE ANTS 2025, Dec 2025",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "conference",
+    "title": "Optimal Resource Allocation in 6G Wireless Networks Using Matching Game Theory: A Base Station and Network Resource Mapping Approach",
+    "authors": "Vivek Pathak, Rahul J. Pandya",
+    "venue": "IEEE ANTS 2025, Dec 2025",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "conference",
+    "title": "Voting and Coalition Game Theory Integrated Resource Allocation in Tier-2 6G-HetNets: A Competition Integrated Hybrid Approach",
+    "authors": "Vivek Pathak, Rahul J. Pandya",
+    "venue": "IEEE ANTS 2025, Dec 2025",
+    "recent": false
+  },
+  {
+    "year": 2026,
+    "type": "journal",
+    "title": "AI/ML for VLSI Chip Design Automation: A Comprehensive Survey",
+    "authors": "Jayashree M. Sabarad, Sridhar Iyer, Rahul J. Pandya",
+    "venue": "Proceedings of the Indian National Science Academy (PINSA), Mar 2026",
+    "recent": false
+  },
+  {
+    "year": 2026,
+    "type": "journal",
+    "title": "Integrating Large Language Models with Computer Vision: A Comprehensive Review",
+    "authors": "Sridhar Iyer Priyanshu Rao, Raghuveer Verma, Prajwal N. Prasad, Nihar Sagar G., Rahul Jashvantbhai Pandya",
+    "venue": "SSRN",
+    "recent": true
+  },
+  {
+    "year": 2025,
+    "type": "conference",
+    "title": "A Comparative Study of Deep Learning Architectures for Cervical Cell Segmentation in Pap Smear Images",
+    "authors": "Revanth Palaparthi, Sahitya Chinta, Shaik Abdul Samad, Rahul J Pandya",
+    "venue": "2025 9th International Conference on Information Technology (InCIT)",
+    "recent": false
+  },
+  {
+    "year": 2025,
+    "type": "conference",
+    "title": "Optimizing Liver Cirrhosis Outcome Prediction Using Multiclass Classification and F1 Score Analysis",
+    "authors": "Rahul Pandya, Mayur Sevak, Neel Macwan, Vatsal Shah, Jeet Swami",
+    "venue": "International Conference On Innovative Computing And Communication",
     "recent": false
   }
 ]
