@@ -30,6 +30,7 @@ const SHEET_URLS = {
   students_mtech:   'https://docs.google.com/spreadsheets/d/e/2PACX-1vSD6LuDnk2ycQCvTDa9ygwiYG1H5WXBknkOF0x8PuusNex8aicCZ10HL4RaMkh463TCAdy0hfN3CdZa/pub?gid=1865956931&single=true&output=csv',
   students_project: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSD6LuDnk2ycQCvTDa9ygwiYG1H5WXBknkOF0x8PuusNex8aicCZ10HL4RaMkh463TCAdy0hfN3CdZa/pub?gid=1573723552&single=true&output=csv',
   publications:     'https://docs.google.com/spreadsheets/d/e/2PACX-1vSD6LuDnk2ycQCvTDa9ygwiYG1H5WXBknkOF0x8PuusNex8aicCZ10HL4RaMkh463TCAdy0hfN3CdZa/pub?gid=2080729237&single=true&output=csv',
+  infrastructure:   'https://docs.google.com/spreadsheets/d/e/2PACX-1vSD6LuDnk2ycQCvTDa9ygwiYG1H5WXBknkOF0x8PuusNex8aicCZ10HL4RaMkh463TCAdy0hfN3CdZa/pubhtml?gid=460085960&single=true',
 };
 
 /* ══════════════════════════════════════════════════════════════
@@ -48,6 +49,9 @@ const SHEET_URLS = {
    Publications tab columns:
      year | type | title | authors | venue | recent
      (type = "journal" or "conference", recent = "true" or "false")
+
+   Infrastructure tab columns:
+     name | photo | description | link
    ══════════════════════════════════════════════════════════════ */
 
 function fetchCSV(url) {
@@ -106,7 +110,7 @@ async function sync() {
   try {
     const csv = await fetchCSV(SHEET_URLS.faculty);
     const data = parseCSV(csv);
-    fs.writeFileSync(path.join('data', 'faculty.json'), JSON.stringify(data, null, 2));
+    fs.writeFileSync(path.join('data', 'faculty.json'), JSON.stringify({ faculty: data }, null, 2));
     console.log('✓ Faculty:', data.length, 'records');
   } catch (e) { console.error('✗ Faculty:', e.message); errors++; }
 
@@ -114,7 +118,7 @@ async function sync() {
   try {
     const csv = await fetchCSV(SHEET_URLS.staff);
     const data = parseCSV(csv);
-    fs.writeFileSync(path.join('data', 'staff.json'), JSON.stringify(data, null, 2));
+    fs.writeFileSync(path.join('data', 'staff.json'), JSON.stringify({ staff: data }, null, 2));
     console.log('✓ Staff:', data.length, 'records');
   } catch (e) { console.error('✗ Staff:', e.message); errors++; }
 
@@ -141,9 +145,17 @@ async function sync() {
       venue:   p.venue,
       recent:  boolField(p.recent),
     }));
-    fs.writeFileSync(path.join('data', 'publications.json'), JSON.stringify(data, null, 2));
+    fs.writeFileSync(path.join('data', 'publications.json'), JSON.stringify({ publications: data }, null, 2));
     console.log('✓ Publications:', data.length, 'records');
   } catch (e) { console.error('✗ Publications:', e.message); errors++; }
+
+  /* ── Infrastructure ── */
+  try {
+    const csv = await fetchCSV(SHEET_URLS.infrastructure);
+    const data = parseCSV(csv);
+    fs.writeFileSync(path.join('data', 'infrastructure.json'), JSON.stringify({ infrastructure: data }, null, 2));
+    console.log('✓ Infrastructure:', data.length, 'records');
+  } catch (e) { console.error('✗ Infrastructure:', e.message); errors++; }
 
   console.log('\n' + (errors === 0 ? '✓ All done! Refresh your browser.' : `Done with ${errors} error(s). Check URLs above.`));
 }
