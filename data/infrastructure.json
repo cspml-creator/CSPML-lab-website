@@ -1,3 +1,76 @@
 {
-  "infrastructure": []
+  "infrastructure": [
+    {
+      "name": "Adalm Pluto SDR",
+      "photo": "images/infrastructure/ADALM-PLUTO.jpg",
+      "description": "Software defined radio by Analog Devices. Bandwidth: 20 MHz, Frequency range: 325 MHz to 3800 MHz.",
+      "link": "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html"
+    },
+    {
+      "name": "USRP SDR (2954R)",
+      "photo": "images/infrastructure/USRP_2954R.png",
+      "description": "Software defined radio by NI. Bandwidth: 160 MHz, Frequency range: 10 MHz to 6 GHz.",
+      "link": "https://www.ni.com/docs/en-US/bundle/usrp-2954-specs/page/specs.html"
+    },
+    {
+      "name": "USRP SDR (2920)",
+      "photo": "images/infrastructure/USRP_2920.png",
+      "description": "Software defined radio by NI. Bandwidth: 20 MHz, Frequency range: 50 MHz to 2.2 GHz.",
+      "link": "https://www.ni.com/docs/en-US/bundle/usrp-2920-specs/page/specs.html"
+    },
+    {
+      "name": "Amitec SDR",
+      "photo": "images/infrastructure/Amitec_SDR.jpg",
+      "description": "Software defined radio by Amitec. Bandwidth: 56 MHz, Frequency range: 47 MHz to 6 GHz.",
+      "link": "https://www.nuand.com/bladerf-2-0-micro/"
+    },
+    {
+      "name": "DSK TMS320C6748",
+      "photo": "images/infrastructure/C6748.png",
+      "description": "Scalable DSP development platform for real-time signal processing, audio analytics, and embedded systems prototyping.",
+      "link": "https://www.ti.com/tool/TMDSLCDK6748"
+    },
+    {
+      "name": "DSK TMS320C5515",
+      "photo": "images/infrastructure/C5515.jpeg",
+      "description": "Evaluation platform for the TMS320C5515 DSP, enabling low-power real-time audio and signal-processing development.",
+      "link": "https://www.edutechlearning.com/learningresoursedesc/electronics-engineering/cpu-target-boards/educational-practice-board-for-tms320c5515"
+    },
+    {
+      "name": "Deep Learning Server",
+      "photo": "images/infrastructure/invento-i714-purley-series.png",
+      "description": "2x Intel Xeon Gold 路 4x 64 GB DDR4 路 NVIDIA RTX 2080 Ti (12 GB) 路 2x 256 GB SSD 路 2x 2 TB HDD.",
+      "link": "https://fusionstor.com/products/invento-i714-purley-series"
+    },
+    {
+      "name": "GPU Server (A100)",
+      "photo": "images/infrastructure/Server class machine with GPU.png",
+      "description": "2x Intel Xeon Gold 路 8x 64 GB DDR4 路 NVIDIA A100 (80 GB) 路 2 TB SSD 路 4 TB HDD.",
+      "link": "https://www.hexadata.in/products/Hexadata-Rackmount-Workstation-HD-SW200"
+    },
+    {
+      "name": "DGX H100",
+      "photo": "images/infrastructure/DGXH100.png",
+      "description": "Dual Intel Xeon Platinum 8480C 路 2 TB RAM 路 640 GB GPU memory 路 8x 3.84 TB NVMe storage.",
+      "link": "https://www.nvidia.com/en-in/data-center/dgx-h100/"
+    },
+    {
+      "name": "Jetson Nano",
+      "photo": "images/infrastructure/Jetson Nano.jpg",
+      "description": "NVIDIA edge AI platform for robotics, IoT, and real-time machine learning inference at the edge.",
+      "link": "https://developer.nvidia.com/embedded/jetson-nano"
+    },
+    {
+      "name": "PYNQ-Z2 Board",
+      "photo": "images/infrastructure/PYNQ-Z2.png",
+      "description": "Xilinx Zynq XC7Z020-based FPGA board supporting Python-driven hardware acceleration via the PYNQ framework.",
+      "link": "https://www.amd.com/en/corporate/university-program/aup-boards/pynq-z2.html"
+    },
+    {
+      "name": "RFSoC Boards (4x2)",
+      "photo": "images/infrastructure/RFSoC_4x2.png",
+      "description": "RF SoC integrating high-speed ADCs/DACs with programmable logic for wideband communications and radar prototyping.",
+      "link": "https://www.rfsoc-pynq.io/rfsoc_4x2_overview.html"
+    }
+  ]
 }

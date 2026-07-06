@@ -30,7 +30,7 @@ const SHEET_URLS = {
   students_mtech:   'https://docs.google.com/spreadsheets/d/e/2PACX-1vSD6LuDnk2ycQCvTDa9ygwiYG1H5WXBknkOF0x8PuusNex8aicCZ10HL4RaMkh463TCAdy0hfN3CdZa/pub?gid=1865956931&single=true&output=csv',
   students_project: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSD6LuDnk2ycQCvTDa9ygwiYG1H5WXBknkOF0x8PuusNex8aicCZ10HL4RaMkh463TCAdy0hfN3CdZa/pub?gid=1573723552&single=true&output=csv',
   publications:     'https://docs.google.com/spreadsheets/d/e/2PACX-1vSD6LuDnk2ycQCvTDa9ygwiYG1H5WXBknkOF0x8PuusNex8aicCZ10HL4RaMkh463TCAdy0hfN3CdZa/pub?gid=2080729237&single=true&output=csv',
-  infrastructure:   'https://docs.google.com/spreadsheets/d/e/2PACX-1vSD6LuDnk2ycQCvTDa9ygwiYG1H5WXBknkOF0x8PuusNex8aicCZ10HL4RaMkh463TCAdy0hfN3CdZa/pubhtml?gid=460085960&single=true',
+  infrastructure:   'https://docs.google.com/spreadsheets/d/e/2PACX-1vSD6LuDnk2ycQCvTDa9ygwiYG1H5WXBknkOF0x8PuusNex8aicCZ10HL4RaMkh463TCAdy0hfN3CdZa/pub?gid=460085960&single=true&output=csv',
 };
 
 /* ══════════════════════════════════════════════════════════════
