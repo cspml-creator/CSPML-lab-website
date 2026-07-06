@@ -1,186 +1,188 @@
-[
-  {
-    "year": 2026,
-    "type": "journal",
-    "title": "Byzantine-Robust and Hessian-Free Federated Bilevel Optimization",
-    "authors": "Shruti M, B. N. Bharath",
-    "venue": "Transactions on Machine Learning Research (TMLR)",
-    "recent": true
-  },
-  {
-    "year": 2026,
-    "type": "conference",
-    "title": "Channel-Adaptive Robust Aggregation for Over-the-Air Federated Learning in Heterogeneous Networks",
-    "authors": "Z. Fatima, Z. Shaban, Y. Jamal, N. Shah, R. Prasad, B. N. Bharath",
-    "venue": "IEEE ICASSP 2026, Barcelona",
-    "recent": true
-  },
-  {
-    "year": 2026,
-    "type": "Journal",
-    "title": "Dissipativity-Based Robust Output Feedback Control for Finite-Time Boundedness of Polytopic Uncertain Systems",
-    "authors": "Ajul Dinesh, Ameer K. Mulla",
-    "venue": "International Journal of Control, vol. 99, no. 3, pp. 867-882, Mar 2026",
-    "recent": true
-  },
-  {
-    "year": 2026,
-    "type": "journal",
-    "title": "AI/ML for VLSI Chip Design Automation: A Comprehensive Survey",
-    "authors": "Jayashree M. Sabarad, Sridhar Iyer, Rahul J. Pandya",
-    "venue": "Proceedings of the Indian National Science Academy (PINSA), Mar 2026",
-    "recent": true
-  },
-  {
-    "year": 2026,
-    "type": "journal",
-    "title": "Integrating Large Language Models with Computer Vision: A Comprehensive Review",
-    "authors": "Sridhar Iyer Priyanshu Rao, Raghuveer Verma, Prajwal N. Prasad, Nihar Sagar G., Rahul Jashvantbhai Pandya",
-    "venue": "SSRN",
-    "recent": true
-  },
-  {
-    "year": 2025,
-    "type": "journal",
-    "title": "Dissipativity-based Decentralized Robust Output Feedback Control for Finite-time Boundedness of Uncertain Interconnected Systems",
-    "authors": "Ajul Dinesh, Ameer K Mulla",
-    "venue": "IEEE Control Systems Letters",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "journal",
-    "title": "On Homomorphic Encryption Based Strategies for Class Imbalance in Federated Learning",
-    "authors": "Guleria A, Jagadeesh H, Prasad R, B. N. Bharath",
-    "venue": "Discover Data, Springer Nature 3(1):59",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "journal",
-    "title": "Linear Convergence of Decentralized FedAvg for PL Objectives: The Interpolation Regime",
-    "authors": "Shruti M, P. Khanduri, B. N. Bharath",
-    "venue": "Transactions on Machine Learning Research (TMLR), Jan 2025",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "conference",
-    "title": "Online Learning with Non-convex Losses: New Condition to Achieve Small Dynamic Regret",
-    "authors": "Sumit Sah, B. N. Bharath",
-    "venue": "IEEE ICASSP 2025, Hyderabad",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "conference",
-    "title": "Improved Bounds for Online Convex Optimization",
-    "authors": "T. S. Nayak, B. N. Bharath",
-    "venue": "IEEE ICASSP 2025, Hyderabad",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "journal",
-    "title": "Spectral Analysis Based Objective Assessment of Hypernasality in Cleft Palate Speech: A Review",
-    "authors": "A. K. Dubey, S. R. M. Prasanna, S. Dandapat",
-    "venue": "Circuits, Systems, and Signal Processing",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "Conference",
-    "title": "Minimum Time Consensus for a Class of Second Order LTI Systems Under Fuel Constraints",
-    "authors": "Akansha Rautela, Deepak Patil, Ameer K. Mulla, Indra Narayan Kar",
-    "venue": "Joint SSSC, TDS, COSY 2025, Gif-sur-Yvette, France (accepted)",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "Conference",
-    "title": "Minimum Time Consensus for Multi-Agent Systems Under Fuel Constraints",
-    "authors": "Akansha Rautela, Deepak Patil, Ameer K. Mulla, Indra Narayan Kar",
-    "venue": "Joint SSSC, TDS, COSY 2025, Gif-sur-Yvette, France (accepted)",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "Conference",
-    "title": "EEG-ViLSTM: A Deep Learning Approach for Depression Detection Using EEG Signals",
-    "authors": "Lokesh Kumar, K. Kaustubh, T. Rajkhowa, Shashaank Aswatha Mattur",
-    "venue": "IEEE National Conference on Communications (NCC 2025)",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "Conference",
-    "title": "HDR Video Composition using Differently Exposed Stereo LDR Videos",
-    "authors": "Shashaank M. Aswatha, Chaker Larabi",
-    "venue": "IEEE Visual Communications and Image Processing (VCIP 2025, accepted)",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "Conference",
-    "title": "Estimation of Above Ground Biomass in Agro-forestry Plots using Very High Resolution Optical Images",
-    "authors": "Chandan R., Shashaank M. Aswatha, J. Mukhopadhyay, K. Mallick",
-    "venue": "India Geoscience and Remote Sensing Symposium (IEEE InGARSS 2025, accepted)",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "conference",
-    "title": "Neuro-Symbolic AI: Pioneering Semantic Communication for 6G Wireless Networks",
-    "authors": "Faizan Shafi, Ashwin Waghmare, Rahul J. Pandya, Sridhar Iyer",
-    "venue": "Conference Paper, 2025 (venue TBC — May 2025 per ResearchGate)",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "conference",
-    "title": "Deep Learning and Natural Language Processing Integrated Gold Price Forecasting",
-    "authors": "G. Kirtika, Rahul J. Pandya, Sridhar Iyer",
-    "venue": "Conference Paper, 2025 (venue TBC — May 2025 per ResearchGate)",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "conference",
-    "title": "Coalitional Game Theory and Bankruptcy Game Integrated Resource Allocation for Tier-2 6G-HetNets: A Hybridization Approach",
-    "authors": "Vivek Pathak, Rahul J. Pandya",
-    "venue": "IEEE ANTS 2025, Dec 2025",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "conference",
-    "title": "Optimal Resource Allocation in 6G Wireless Networks Using Matching Game Theory: A Base Station and Network Resource Mapping Approach",
-    "authors": "Vivek Pathak, Rahul J. Pandya",
-    "venue": "IEEE ANTS 2025, Dec 2025",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "conference",
-    "title": "Voting and Coalition Game Theory Integrated Resource Allocation in Tier-2 6G-HetNets: A Competition Integrated Hybrid Approach",
-    "authors": "Vivek Pathak, Rahul J. Pandya",
-    "venue": "IEEE ANTS 2025, Dec 2025",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "conference",
-    "title": "A Comparative Study of Deep Learning Architectures for Cervical Cell Segmentation in Pap Smear Images",
-    "authors": "Revanth Palaparthi, Sahitya Chinta, Shaik Abdul Samad, Rahul J Pandya",
-    "venue": "2025 9th International Conference on Information Technology (InCIT)",
-    "recent": false
-  },
-  {
-    "year": 2025,
-    "type": "conference",
-    "title": "Optimizing Liver Cirrhosis Outcome Prediction Using Multiclass Classification and F1 Score Analysis",
-    "authors": "Rahul Pandya, Mayur Sevak, Neel Macwan, Vatsal Shah, Jeet Swami",
-    "venue": "International Conference On Innovative Computing And Communication",
-    "recent": false
-  }
-]
+{
+  "publications": [
+    {
+      "year": 2026,
+      "type": "journal",
+      "title": "Byzantine-Robust and Hessian-Free Federated Bilevel Optimization",
+      "authors": "Shruti M, B. N. Bharath",
+      "venue": "Transactions on Machine Learning Research (TMLR)",
+      "recent": true
+    },
+    {
+      "year": 2026,
+      "type": "conference",
+      "title": "Channel-Adaptive Robust Aggregation for Over-the-Air Federated Learning in Heterogeneous Networks",
+      "authors": "Z. Fatima, Z. Shaban, Y. Jamal, N. Shah, R. Prasad, B. N. Bharath",
+      "venue": "IEEE ICASSP 2026, Barcelona",
+      "recent": true
+    },
+    {
+      "year": 2026,
+      "type": "Journal",
+      "title": "Dissipativity-Based Robust Output Feedback Control for Finite-Time Boundedness of Polytopic Uncertain Systems",
+      "authors": "Ajul Dinesh, Ameer K. Mulla",
+      "venue": "International Journal of Control, vol. 99, no. 3, pp. 867-882, Mar 2026",
+      "recent": true
+    },
+    {
+      "year": 2026,
+      "type": "journal",
+      "title": "AI/ML for VLSI Chip Design Automation: A Comprehensive Survey",
+      "authors": "Jayashree M. Sabarad, Sridhar Iyer, Rahul J. Pandya",
+      "venue": "Proceedings of the Indian National Science Academy (PINSA), Mar 2026",
+      "recent": true
+    },
+    {
+      "year": 2026,
+      "type": "journal",
+      "title": "Integrating Large Language Models with Computer Vision: A Comprehensive Review",
+      "authors": "Sridhar Iyer Priyanshu Rao, Raghuveer Verma, Prajwal N. Prasad, Nihar Sagar G., Rahul Jashvantbhai Pandya",
+      "venue": "SSRN",
+      "recent": true
+    },
+    {
+      "year": 2025,
+      "type": "journal",
+      "title": "Dissipativity-based Decentralized Robust Output Feedback Control for Finite-time Boundedness of Uncertain Interconnected Systems",
+      "authors": "Ajul Dinesh, Ameer K Mulla",
+      "venue": "IEEE Control Systems Letters",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "journal",
+      "title": "On Homomorphic Encryption Based Strategies for Class Imbalance in Federated Learning",
+      "authors": "Guleria A, Jagadeesh H, Prasad R, B. N. Bharath",
+      "venue": "Discover Data, Springer Nature 3(1):59",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "journal",
+      "title": "Linear Convergence of Decentralized FedAvg for PL Objectives: The Interpolation Regime",
+      "authors": "Shruti M, P. Khanduri, B. N. Bharath",
+      "venue": "Transactions on Machine Learning Research (TMLR), Jan 2025",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Online Learning with Non-convex Losses: New Condition to Achieve Small Dynamic Regret",
+      "authors": "Sumit Sah, B. N. Bharath",
+      "venue": "IEEE ICASSP 2025, Hyderabad",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Improved Bounds for Online Convex Optimization",
+      "authors": "T. S. Nayak, B. N. Bharath",
+      "venue": "IEEE ICASSP 2025, Hyderabad",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "journal",
+      "title": "Spectral Analysis Based Objective Assessment of Hypernasality in Cleft Palate Speech: A Review",
+      "authors": "A. K. Dubey, S. R. M. Prasanna, S. Dandapat",
+      "venue": "Circuits, Systems, and Signal Processing",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "Conference",
+      "title": "Minimum Time Consensus for a Class of Second Order LTI Systems Under Fuel Constraints",
+      "authors": "Akansha Rautela, Deepak Patil, Ameer K. Mulla, Indra Narayan Kar",
+      "venue": "Joint SSSC, TDS, COSY 2025, Gif-sur-Yvette, France (accepted)",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "Conference",
+      "title": "Minimum Time Consensus for Multi-Agent Systems Under Fuel Constraints",
+      "authors": "Akansha Rautela, Deepak Patil, Ameer K. Mulla, Indra Narayan Kar",
+      "venue": "Joint SSSC, TDS, COSY 2025, Gif-sur-Yvette, France (accepted)",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "Conference",
+      "title": "EEG-ViLSTM: A Deep Learning Approach for Depression Detection Using EEG Signals",
+      "authors": "Lokesh Kumar, K. Kaustubh, T. Rajkhowa, Shashaank Aswatha Mattur",
+      "venue": "IEEE National Conference on Communications (NCC 2025)",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "Conference",
+      "title": "HDR Video Composition using Differently Exposed Stereo LDR Videos",
+      "authors": "Shashaank M. Aswatha, Chaker Larabi",
+      "venue": "IEEE Visual Communications and Image Processing (VCIP 2025, accepted)",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "Conference",
+      "title": "Estimation of Above Ground Biomass in Agro-forestry Plots using Very High Resolution Optical Images",
+      "authors": "Chandan R., Shashaank M. Aswatha, J. Mukhopadhyay, K. Mallick",
+      "venue": "India Geoscience and Remote Sensing Symposium (IEEE InGARSS 2025, accepted)",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Neuro-Symbolic AI: Pioneering Semantic Communication for 6G Wireless Networks",
+      "authors": "Faizan Shafi, Ashwin Waghmare, Rahul J. Pandya, Sridhar Iyer",
+      "venue": "Conference Paper, 2025 (venue TBC — May 2025 per ResearchGate)",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Deep Learning and Natural Language Processing Integrated Gold Price Forecasting",
+      "authors": "G. Kirtika, Rahul J. Pandya, Sridhar Iyer",
+      "venue": "Conference Paper, 2025 (venue TBC — May 2025 per ResearchGate)",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Coalitional Game Theory and Bankruptcy Game Integrated Resource Allocation for Tier-2 6G-HetNets: A Hybridization Approach",
+      "authors": "Vivek Pathak, Rahul J. Pandya",
+      "venue": "IEEE ANTS 2025, Dec 2025",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Optimal Resource Allocation in 6G Wireless Networks Using Matching Game Theory: A Base Station and Network Resource Mapping Approach",
+      "authors": "Vivek Pathak, Rahul J. Pandya",
+      "venue": "IEEE ANTS 2025, Dec 2025",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Voting and Coalition Game Theory Integrated Resource Allocation in Tier-2 6G-HetNets: A Competition Integrated Hybrid Approach",
+      "authors": "Vivek Pathak, Rahul J. Pandya",
+      "venue": "IEEE ANTS 2025, Dec 2025",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "A Comparative Study of Deep Learning Architectures for Cervical Cell Segmentation in Pap Smear Images",
+      "authors": "Revanth Palaparthi, Sahitya Chinta, Shaik Abdul Samad, Rahul J Pandya",
+      "venue": "2025 9th International Conference on Information Technology (InCIT)",
+      "recent": false
+    },
+    {
+      "year": 2025,
+      "type": "conference",
+      "title": "Optimizing Liver Cirrhosis Outcome Prediction Using Multiclass Classification and F1 Score Analysis",
+      "authors": "Rahul Pandya, Mayur Sevak, Neel Macwan, Vatsal Shah, Jeet Swami",
+      "venue": "International Conference On Innovative Computing And Communication",
+      "recent": false
+    }
+  ]
+}

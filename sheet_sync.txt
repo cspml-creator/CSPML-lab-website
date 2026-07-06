@@ -1,0 +1,5 @@
+node sync-sheets.js
+git add data/
+git commit -m "sync data from Google Sheets"
+git push
+

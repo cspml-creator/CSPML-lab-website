@@ -9,39 +9,32 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
 
-<!-- ════════════════════════════════════════
-     NAVIGATION
-     ════════════════════════════════════════ -->
 <nav id="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">CSP<span>ML</span></a>
 
     <ul class="nav-links" id="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#research">Research</a></li>
       <li><a href="people.html">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
       <li><a href="infrastructure.html" class="active">Infrastructure</a></li>
-      <li><a href="courses.html">Courses</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
 
     <a href="contact.html" class="nav-cta">Join Us</a>
 
-    <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation menu">
       <span></span><span></span><span></span>
     </button>
   </div>
 </nav>
 
 
-<!-- ════════════════════════════════════════
-     PAGE BANNER
-     ════════════════════════════════════════ -->
 <div class="page-banner">
   <div class="container">
     <span class="section-tag">Lab Facilities</span>
@@ -51,12 +44,6 @@
 </div>
 
 
-<!-- ════════════════════════════════════════
-     INFRASTRUCTURE
-     EDIT: copy a .infra-card block to add equipment
-     See content/infrastructure.md and
-     images/infrastructure/README.md for details.
-     ════════════════════════════════════════ -->
 <section id="infrastructure" class="section bg-alt">
   <div class="container">
 
@@ -66,169 +53,58 @@
       <div class="section-bar"></div>
     </div>
 
-    <div class="infra-grid reveal">
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/ADALM-PLUTO.jpg"
-             alt="Adalm Pluto SDR"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">Adalm Pluto SDR</div>
-          <div class="infra-desc">Software defined radio by Analog Devices. Bandwidth: 20 MHz, Frequency range: 325 MHz to 3800 MHz.</div>
-          <a href="https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/USRP_2954R.png"
-             alt="USRP SDR (2954R)"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">USRP SDR (2954R)</div>
-          <div class="infra-desc">Software defined radio by NI. Bandwidth: 160 MHz, Frequency range: 10 MHz to 6 GHz.</div>
-          <a href="https://www.ni.com/docs/en-US/bundle/usrp-2954-specs/page/specs.html" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/USRP_2920.png"
-             alt="USRP SDR (2920)"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">USRP SDR (2920)</div>
-          <div class="infra-desc">Software defined radio by NI. Bandwidth: 20 MHz, Frequency range: 50 MHz to 2.2 GHz.</div>
-          <a href="https://www.ni.com/docs/en-US/bundle/usrp-2920-specs/page/specs.html" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/Amitec_SDR.jpg"
-             alt="Amitec SDR"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">Amitec SDR</div>
-          <div class="infra-desc">Software defined radio by Amitec. Bandwidth: 56 MHz, Frequency range: 47 MHz to 6 GHz.</div>
-          <a href="https://www.nuand.com/bladerf-2-0-micro/" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/C6748.png"
-             alt="DSK TMS320C6748"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">DSK TMS320C6748</div>
-          <div class="infra-desc">Scalable DSP development platform for real-time signal processing, audio analytics, and embedded systems prototyping.</div>
-          <a href="https://www.ti.com/tool/TMDSLCDK6748" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/C5515.jpeg"
-             alt="DSK TMS320C5515"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">DSK TMS320C5515</div>
-          <div class="infra-desc">Evaluation platform for the TMS320C5515 DSP, enabling low-power real-time audio and signal-processing development.</div>
-          <a href="https://www.edutechlearning.com/learningresoursedesc/electronics-engineering/cpu-target-boards/educational-practice-board-for-tms320c5515" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/invento-i714-purley-series.png"
-             alt="Deep learning server"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">Deep Learning Server</div>
-          <div class="infra-desc">2× Intel Xeon Gold · 4× 64 GB DDR4 · NVIDIA RTX 2080 Ti (12 GB) · 2× 256 GB SSD · 2× 2 TB HDD.</div>
-          <a href="https://fusionstor.com/products/invento-i714-purley-series" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/Server class machine with GPU.png"
-             alt="Server class machine with GPU"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">GPU Server (A100)</div>
-          <div class="infra-desc">2× Intel Xeon Gold · 8× 64 GB DDR4 · NVIDIA A100 (80 GB) · 2 TB SSD · 4 TB HDD.</div>
-          <a href="https://www.hexadata.in/products/Hexadata-Rackmount-Workstation-HD-SW200" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/DGXH100.png"
-             alt="DGX H100"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">DGX H100</div>
-          <div class="infra-desc">Dual Intel Xeon Platinum 8480C · 2 TB RAM · 640 GB GPU memory · 8× 3.84 TB NVMe storage.</div>
-          <a href="https://www.nvidia.com/en-in/data-center/dgx-h100/" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/Jetson Nano.jpg"
-             alt="Jetson Nano"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">Jetson Nano</div>
-          <div class="infra-desc">NVIDIA edge AI platform for robotics, IoT, and real-time machine learning inference at the edge.</div>
-          <a href="https://developer.nvidia.com/embedded/jetson-nano" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/PYNQ-Z2.png"
-             alt="PYNQ-Z2 Board"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">PYNQ-Z2 Board</div>
-          <div class="infra-desc">Xilinx Zynq XC7Z020-based FPGA board supporting Python-driven hardware acceleration via the PYNQ framework.</div>
-          <a href="https://www.amd.com/en/corporate/university-program/aup-boards/pynq-z2.html" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-      <div class="infra-card">
-        <img class="infra-photo" src="images/placeholder/RFSoC_4x2.png"
-             alt="RFSoC boards (4x2)"
-             onerror="this.src='images/placeholder/equipment.svg'">
-        <div class="infra-body">
-          <div class="infra-name">RFSoC Boards (4×2)</div>
-          <div class="infra-desc">RF SoC integrating high-speed ADCs/DACs with programmable logic for wideband communications and radar prototyping.</div>
-          <a href="https://www.rfsoc-pynq.io/rfsoc_4x2_overview.html" target="_blank" class="btn-sm">Read more →</a>
-        </div>
-      </div>
-
-    </div>
+    <div id="infra-grid" class="infra-grid reveal"></div>
   </div>
 </section>
 
 
-<!-- ════════════════════════════════════════
-     FOOTER
-     ════════════════════════════════════════ -->
 <footer>
   <div class="container footer-inner">
     <div class="footer-brand">
       <div class="footer-logo">CSP<span>ML</span></div>
       <div class="footer-tagline">
-        Communication, Signal Processing &amp; Machine Learning Laboratory<br>
+        Communication, Signal Processing &amp; Machine Learning Group<br>
         Indian Institute of Technology Dharwad
       </div>
     </div>
     <nav class="footer-nav" aria-label="Footer navigation">
       <a href="index.html">Home</a>
-      <a href="about.html">About</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#research">Research</a>
       <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
       <a href="infrastructure.html">Infrastructure</a>
-      <a href="courses.html">Courses</a>
       <a href="contact.html">Contact</a>
     </nav>
     <div class="footer-copy">© 2025 CSPML · IIT Dharwad · All rights reserved</div>
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 24);
+  }, { passive: true });
+
+  const hamburger = document.getElementById('hamburger');
+  hamburger.addEventListener('click', () => {
+    navbar.classList.toggle('nav-open');
+    hamburger.setAttribute('aria-expanded', navbar.classList.contains('nav-open'));
+  });
+  document.querySelectorAll('#nav-links a').forEach(a => {
+    a.addEventListener('click', () => navbar.classList.remove('nav-open'));
+  });
+
+  const revealObserver = new IntersectionObserver(
+    entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+    { threshold: 0.08 }
+  );
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+  window._revealObserver = revealObserver;
+</script>
+<script src="js/renderer.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </body>
 </html>

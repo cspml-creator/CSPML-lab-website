@@ -9,30 +9,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
 
-<!-- ════════════════════════════════════════
-     NAVIGATION
-     ════════════════════════════════════════ -->
 <nav id="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">CSP<span>ML</span></a>
 
     <ul class="nav-links" id="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#research">Research</a></li>
       <li><a href="people.html" class="active">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
       <li><a href="infrastructure.html">Infrastructure</a></li>
-      <li><a href="courses.html">Courses</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
 
     <a href="contact.html" class="nav-cta">Join Us</a>
 
-    <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation menu">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -40,246 +36,147 @@
 
 
 <!-- ════════════════════════════════════════
-     PAGE BANNER
+     PEOPLE
      ════════════════════════════════════════ -->
-<div class="page-banner">
-  <div class="container">
-    <span class="section-tag">The Team</span>
-    <h1 class="page-banner-title">Our People</h1>
-    <p class="page-banner-sub">Faculty, staff, and researchers driving discovery at the intersection of communications, signal processing, and machine learning.</p>
-  </div>
-</div>
-
-
-<!-- ════════════════════════════════════════
-     PEOPLE SECTION
-     Tabs: Faculty · Staff · Students
-
-     TO ADD A PERSON:
-       1. Find the correct tab panel
-       2. Copy a .person-card block and update
-          photo src, initials, name, role, link
-     ════════════════════════════════════════ -->
-<section id="people" class="section">
+<section id="people" class="section" style="padding-top: 6rem;">
   <div class="container">
 
-    <!-- Pill-style tab switcher -->
-    <div class="people-tabs reveal" role="tablist">
-      <button class="people-tab active" data-tab="faculty" role="tab" aria-selected="true">Faculty</button>
-      <button class="people-tab"        data-tab="staff"   role="tab" aria-selected="false">Staff</button>
-      <!-- Uncomment to re-enable Students tab:
-      <button class="people-tab" data-tab="students" role="tab" aria-selected="false">Students</button>
-      -->
+    <div class="section-header reveal">
+      <span class="section-tag">The Team</span>
+      <h2 class="section-title">Our People</h2>
+      <div class="section-bar"></div>
     </div>
 
-
-    <!-- ── TAB 1: FACULTY ── -->
-    <div class="people-panel active" id="people-panel-faculty" role="tabpanel">
-      <div class="people-grid reveal">
-
-        <!-- Sorted alphabetically by first name -->
-
-        <!-- Ameer -->
-        <div class="person-card">
-          <div class="person-photo-wrap">
-            <div class="person-avatar">AKM</div>
-            <img class="person-photo" src="images/people/Ameer_Mulla.jpg"
-                 alt="Prof. Ameer K Mulla"
-                 onload="this.classList.add('loaded')">
-          </div>
-          <div class="person-name">Prof. Ameer K Mulla</div>
-          <div class="person-role">Associate Professor</div>
-          <a href="https://www.iitdh.ac.in/~ameer/" target="_blank" class="btn-sm">Faculty Profile →</a>
-        </div>
-
-        <!-- B N -->
-        <div class="person-card">
-          <div class="person-photo-wrap">
-            <div class="person-avatar">BNB</div>
-            <img class="person-photo" src="images/people/Prof_BHaratahBN.jpg"
-                 alt="Prof. B N Bharath"
-                 onload="this.classList.add('loaded')">
-          </div>
-          <div class="person-name">Prof. B N Bharath</div>
-          <div class="person-role">Associate Professor</div>
-          <a href="https://bharathbettagere.github.io/mywebpage/" target="_blank" class="btn-sm">Faculty Profile →</a>
-        </div>
-
-        <!-- Gopal -->
-        <div class="person-card">
-          <div class="person-photo-wrap">
-            <div class="person-avatar">GKK</div>
-            <img class="person-photo" src="images/people/Gopal_Kamath.jpg"
-                 alt="Prof. Gopal Krishna Kamath M"
-                 onload="this.classList.add('loaded')">
-          </div>
-          <div class="person-name">Prof. Gopal Krishna Kamath M</div>
-          <div class="person-role">Assistant Professor</div>
-          <a href="https://sites.google.com/view/gopalkamath/home" target="_blank" class="btn-sm">Faculty Profile →</a>
-        </div>
-
-        <!-- Naveen -->
-        <div class="person-card">
-          <div class="person-photo-wrap">
-            <div class="person-avatar">NMB</div>
-            <img class="person-photo" src="images/people/NaveenMB.jpeg"
-                 alt="Prof. Naveen M. B."
-                 onload="this.classList.add('loaded')">
-          </div>
-          <div class="person-name">Prof. Naveen M. B.</div>
-          <div class="person-role">Associate Professor</div>
-          <a href="https://www.iitdh.ac.in/node/2062" target="_blank" class="btn-sm">Faculty Profile →</a>
-        </div>
-
-        <!-- Rahul -->
-        <div class="person-card">
-          <div class="person-photo-wrap">
-            <div class="person-avatar">RJP</div>
-            <img class="person-photo" src="images/people/Rahul_Pandya.jpg"
-                 alt="Prof. Rahul Jashvantbhai Pandya"
-                 onload="this.classList.add('loaded')">
-          </div>
-          <div class="person-name">Prof. Rahul Jashvantbhai Pandya</div>
-          <div class="person-role">Associate Professor</div>
-          <a href="https://www.iitdh.ac.in/node/2064" target="_blank" class="btn-sm">Faculty Profile →</a>
-        </div>
-
-        <!-- Rajshekhar -->
-        <div class="person-card">
-          <div class="person-photo-wrap">
-            <div class="person-avatar">RVB</div>
-            <img class="person-photo" src="images/people/Rajshekhar_V_Bhat.jpeg"
-                 alt="Prof. Rajshekhar V Bhat"
-                 onload="this.classList.add('loaded')">
-          </div>
-          <div class="person-name">Prof. Rajshekhar V Bhat</div>
-          <div class="person-role">Assistant Professor</div>
-          <a href="https://www.iitdh.ac.in/user-profile/rajshekhar-v-bhat" target="_blank" class="btn-sm">Faculty Profile →</a>
-        </div>
-
-        <!-- S R -->
-        <div class="person-card">
-          <div class="person-photo-wrap">
-            <div class="person-avatar">SRMP</div>
-            <img class="person-photo" src="images/people/Mahadeva_Prasanna.jpeg"
-                 alt="Prof. S R Mahadeva Prasanna"
-                 onload="this.classList.add('loaded')">
-          </div>
-          <div class="person-name">Prof. S R Mahadeva Prasanna</div>
-          <div class="person-role">Professor</div>
-          <a href="https://www.iitdh.ac.in/user-profile/s-r-mahadeva-prasanna" target="_blank" class="btn-sm">Faculty Profile →</a>
-        </div>
-
-        <!-- Shashaank -->
-        <div class="person-card">
-          <div class="person-photo-wrap">
-            <div class="person-avatar">SAM</div>
-            <img class="person-photo" src="images/people/Shashaank_Aswatha_Mattur.jpeg"
-                 alt="Prof. Shashaank Aswatha Mattur"
-                 onload="this.classList.add('loaded')">
-          </div>
-          <div class="person-name">Prof. Shashaank Aswatha Mattur</div>
-          <div class="person-role">Assistant Professor</div>
-          <a href="https://www.iitdh.ac.in/node/2072" target="_blank" class="btn-sm">Faculty Profile →</a>
-        </div>
-
-      </div>
-    </div><!-- end faculty panel -->
-
-
-    <!-- ── TAB 2: STAFF ── -->
-    <div class="people-panel" id="people-panel-staff" role="tabpanel">
-      <div class="people-grid reveal">
-
-        <!-- EDIT: copy this card to add staff -->
-        <div class="person-card">
-          <div class="person-photo-wrap">
-            <div class="person-avatar">MKS</div>
-            <img class="person-photo" src="images/people/MrutyunjayKS.jpg"
-                 alt="Mr. Mrutyunjay K. S."
-                 onload="this.classList.add('loaded')">
-          </div>
-          <div class="person-name">Mr. Mrutyunjay K. S.</div>
-          <div class="person-role">Senior Technical Superintendent</div>
-        </div>
-
-      </div>
-    </div><!-- end staff panel -->
-
-
-    <!-- ── TAB 3: STUDENTS (hidden) ──
-    <div class="people-panel" id="people-panel-students" role="tabpanel">
-      <div class="students-subsection">
-        <div class="subsection-header">
-          <span class="subsection-label">PhD Students</span>
-          <div class="subsection-line"></div>
-        </div>
-        <div class="people-grid reveal">
-          <div class="person-card">
-            <div class="person-photo-wrap"><div class="person-avatar">RS</div></div>
-            <div class="person-name">Researcher Name</div>
-            <div class="person-role">PhD Scholar</div>
-            <div class="person-topic">Wireless Communications</div>
-          </div>
-          <div class="person-card open-position">
-            <div class="person-photo-wrap"><div class="person-avatar add-slot">+</div></div>
-            <div class="person-name person-name-muted">Open Position</div>
-            <div class="person-role">PhD Admissions Open</div>
-            <a href="https://www.iitdh.ac.in/phd" target="_blank" class="btn-sm">Apply →</a>
-          </div>
-        </div>
-      </div>
-      <div class="students-subsection">
-        <div class="subsection-header">
-          <span class="subsection-label">MTech Students</span>
-          <div class="subsection-line"></div>
-        </div>
-        <div class="people-grid reveal">
-          <div class="person-card">
-            <div class="person-photo-wrap"><div class="person-avatar">VK</div></div>
-            <div class="person-name">Student Name</div>
-            <div class="person-role">MS (Research)</div>
-            <div class="person-topic">Channel Estimation</div>
-          </div>
-          <div class="person-card open-position">
-            <div class="person-photo-wrap"><div class="person-avatar add-slot">+</div></div>
-            <div class="person-name person-name-muted">Open Position</div>
-            <div class="person-role">MTech Admissions Open</div>
-            <a href="https://www.iitdh.ac.in/mtech" target="_blank" class="btn-sm">Apply →</a>
-          </div>
-        </div>
-      </div>
+    <div class="ppl-tabs reveal" role="tablist">
+      <button class="ppl-tab active" data-tab="faculty" role="tab" aria-selected="true">
+        Faculty <span class="ppl-tab-count">—</span>
+      </button>
+      <button class="ppl-tab" data-tab="staff" role="tab" aria-selected="false">
+        Staff <span class="ppl-tab-count">—</span>
+      </button>
+      <button class="ppl-tab" data-tab="students" role="tab" aria-selected="false">
+        Students <span class="ppl-tab-count">—</span>
+      </button>
     </div>
-    -->
+
+    <!-- TAB 1: FACULTY -->
+    <div class="ppl-panel active" id="ppl-faculty" role="tabpanel">
+      <div id="faculty-grid" class="faculty-grid reveal"></div>
+    </div>
+
+    <!-- TAB 2: STAFF -->
+    <div class="ppl-panel" id="ppl-staff" role="tabpanel">
+      <div id="staff-grid" class="faculty-grid reveal"></div>
+    </div>
+
+    <!-- TAB 3: STUDENTS -->
+    <div class="ppl-panel" id="ppl-students" role="tabpanel">
+
+      <div class="student-tabs" role="tablist">
+        <button class="student-tab active" data-stab="phd"     role="tab" aria-selected="true">PhD</button>
+        <button class="student-tab"        data-stab="ms"      role="tab" aria-selected="false">MS</button>
+        <button class="student-tab"        data-stab="mtech"   role="tab" aria-selected="false">MTech</button>
+        <button class="student-tab"        data-stab="project" role="tab" aria-selected="false">Project Associates</button>
+      </div>
+
+      <div class="student-panel active" id="stab-phd" role="tabpanel">
+        <div id="phd-grid" class="student-grid reveal"></div>
+      </div>
+
+      <div class="student-panel" id="stab-ms" role="tabpanel">
+        <div id="ms-grid" class="student-grid reveal"></div>
+      </div>
+
+      <div class="student-panel" id="stab-mtech" role="tabpanel">
+        <div id="mtech-grid" class="student-grid reveal"></div>
+      </div>
+
+      <div class="student-panel" id="stab-project" role="tabpanel">
+        <div id="project-grid" class="student-grid reveal"></div>
+      </div>
+
+    </div>
 
   </div>
 </section>
 
 
-<!-- ════════════════════════════════════════
-     FOOTER
-     ════════════════════════════════════════ -->
 <footer>
   <div class="container footer-inner">
     <div class="footer-brand">
       <div class="footer-logo">CSP<span>ML</span></div>
       <div class="footer-tagline">
-        Communication, Signal Processing &amp; Machine Learning Laboratory<br>
+        Communication, Signal Processing &amp; Machine Learning Group<br>
         Indian Institute of Technology Dharwad
       </div>
     </div>
     <nav class="footer-nav" aria-label="Footer navigation">
       <a href="index.html">Home</a>
-      <a href="about.html">About</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#research">Research</a>
       <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
       <a href="infrastructure.html">Infrastructure</a>
-      <a href="courses.html">Courses</a>
       <a href="contact.html">Contact</a>
     </nav>
     <div class="footer-copy">© 2025 CSPML · IIT Dharwad · All rights reserved</div>
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 24);
+  }, { passive: true });
+
+  const hamburger = document.getElementById('hamburger');
+  hamburger.addEventListener('click', () => {
+    navbar.classList.toggle('nav-open');
+    hamburger.setAttribute('aria-expanded', navbar.classList.contains('nav-open'));
+  });
+  document.querySelectorAll('#nav-links a').forEach(a => {
+    a.addEventListener('click', () => navbar.classList.remove('nav-open'));
+  });
+
+  const revealObserver = new IntersectionObserver(
+    entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+    { threshold: 0.08 }
+  );
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+  window._revealObserver = revealObserver;
+
+  document.querySelectorAll('.ppl-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.ppl-tab').forEach(t => {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+      });
+      document.querySelectorAll('.ppl-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      const panel = document.getElementById('ppl-' + tab.dataset.tab);
+      if (panel) panel.classList.add('active');
+    });
+  });
+
+  document.querySelectorAll('.student-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.stab;
+      document.querySelectorAll('.student-tab').forEach(t => {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+      });
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      document.querySelectorAll('.student-panel').forEach(p => p.classList.remove('active'));
+      const panel = document.getElementById('stab-' + target);
+      if (panel) panel.classList.add('active');
+    });
+  });
+</script>
+<script src="js/renderer.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </body>
 </html>

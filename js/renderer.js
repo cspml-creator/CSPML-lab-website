@@ -79,13 +79,32 @@ function publicationCardHTML(p) {
     </div>`;
 }
 
+function infraCardHTML(item) {
+  const img = item.photo
+    ? `<img class="infra-photo" src="${item.photo}" alt="${item.name}" onerror="this.src='images/placeholder/equipment.svg'">`
+    : `<img class="infra-photo" src="images/placeholder/equipment.svg" alt="${item.name}">`;
+  const link = item.link
+    ? `<a href="${item.link}" target="_blank" class="btn-sm">Read more →</a>`
+    : '';
+  return `
+    <div class="infra-card">
+      ${img}
+      <div class="infra-body">
+        <div class="infra-name">${item.name}</div>
+        <div class="infra-desc">${item.description}</div>
+        ${link}
+      </div>
+    </div>`;
+}
+
 async function renderAll() {
   try {
-    const [faculty, staff, students, publications] = await Promise.all([
+    const [faculty, staff, students, publications, infrastructure] = await Promise.all([
       loadJSON('data/faculty.json').then(d => d.faculty || d),
       loadJSON('data/staff.json').then(d => d.staff || d),
       loadJSON('data/students.json'),
       loadJSON('data/publications.json').then(d => d.publications || d),
+      loadJSON('data/infrastructure.json').then(d => d.infrastructure || d),
     ]);
 
     /* ── Faculty ── */
@@ -144,9 +163,10 @@ async function renderAll() {
     /* ── Publications ── */
     const pubContainer = document.getElementById('publications-container');
     if (pubContainer) {
-      const years = [...new Set(publications.map(p => p.year))].sort((a, b) => b - a);
+      const filteredPubs = publications.filter(p => p.year >= 2025);
+      const years = [...new Set(filteredPubs.map(p => p.year))].sort((a, b) => b - a);
       pubContainer.innerHTML = years.map(year => {
-        const yearPubs = publications.filter(p => p.year === year);
+        const yearPubs = filteredPubs.filter(p => p.year === year);
         return `
           <div class="pub-year-group reveal">
             <div class="pub-year-marker"><span>${year}</span></div>
@@ -160,6 +180,12 @@ async function renderAll() {
       document.querySelectorAll('#publications-container .reveal').forEach(el => {
         if (window._revealObserver) window._revealObserver.observe(el);
       });
+    }
+
+    /* ── Infrastructure ── */
+    const infraGrid = document.getElementById('infra-grid');
+    if (infraGrid) {
+      infraGrid.innerHTML = infrastructure.map(infraCardHTML).join('');
     }
 
     /* Re-observe student grids for scroll reveal */

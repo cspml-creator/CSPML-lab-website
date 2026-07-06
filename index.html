@@ -17,18 +17,19 @@
      ════════════════════════════════════════ -->
 <nav id="navbar">
   <div class="nav-inner">
-    <a href="#home" class="nav-logo">CSP<span>ML</span></a>
+    <a href="index.html" class="nav-logo">CSP<span>ML</span></a>
 
     <ul class="nav-links" id="nav-links">
-      <li><a href="#home">Home</a></li>
+      <li><a href="index.html" class="active">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#research">Research</a></li>
-      <li><a href="#people">People</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="infrastructure.html">Infrastructure</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
 
-    <a href="#contact" class="nav-cta">Join Us</a>
+    <a href="contact.html" class="nav-cta">Join Us</a>
 
     <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation menu">
       <span></span><span></span><span></span>
@@ -39,44 +40,37 @@
 
 <!-- ════════════════════════════════════════
      HERO SECTION
-     EDIT: title, tagline, stats, CTA links
-     Layer order: bg → orbs → canvas → grid → content
      ════════════════════════════════════════ -->
 <section id="home" class="hero">
   <div class="hero-bg"></div>
   <div class="hero-orb orb-1"></div>
   <div class="hero-orb orb-2"></div>
-  <!-- Canvas draws signal waves + network nodes on top of orbs -->
   <canvas id="hero-canvas" aria-hidden="true"></canvas>
   <div class="hero-grid"></div>
 
   <div class="hero-content">
 
-    <!-- EDIT: INSTITUTION BADGE -->
     <div class="hero-badge">
       <span class="pulse-dot"></span>
       IIT Dharwad &nbsp;·&nbsp; EECE Department
     </div>
 
-    <!-- EDIT: LAB NAME — acronym is the primary mark, full name below -->
     <h1 class="hero-title">
       <span class="hero-acronym">CSPML</span>
       <span class="hero-fullname">Communication, Signal Processing &amp; Machine Learning Group</span>
     </h1>
 
-    <!-- EDIT: TAGLINE — keep to one or two lines -->
     <p class="hero-sub">
       Advancing next-generation wireless communications, adaptive signal processing,
       and machine learning — at the frontier of engineering at IIT Dharwad.
     </p>
 
-    <!-- EDIT: CTA BUTTONS -->
     <div class="hero-actions">
       <a href="#research" class="btn-primary">Explore Research</a>
-      <a href="#publications" class="btn-ghost">View Publications →</a>
+      <a href="publications.html" class="btn-ghost">View Publications →</a>
     </div>
 
-    <!-- Stats are populated automatically by renderer.js from data/*.json -->
+    <!-- Stats populated automatically by renderer.js -->
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-num">—</div>
@@ -141,7 +135,6 @@
 
 <!-- ════════════════════════════════════════
      ABOUT THE LAB
-     EDIT: paragraphs, pillar cards, stat cards
      ════════════════════════════════════════ -->
 <section id="about" class="section">
   <div class="container">
@@ -154,9 +147,7 @@
 
     <div class="about-grid reveal">
 
-      <!-- Left: text -->
       <div class="about-text">
-        <!-- EDIT: ABOUT BODY -->
         <p class="about-lead">
           We are a research group at the Department of Electrical, Electronics &amp; Communication
           Engineering (EECE), IIT Dharwad, working at the intersection of wireless communications,
@@ -170,7 +161,6 @@
           organisations, and global academic institutions to translate theory into real-world impact.
         </p>
 
-        <!-- EDIT: PILLAR CARDS -->
         <div class="about-pillars">
           <div class="pillar">
             <div class="pillar-icon">🤝</div>
@@ -189,8 +179,6 @@
         </div>
       </div>
 
-      <!-- Right: stat cards -->
-      <!-- EDIT: ABOUT STAT CARDS -->
       <div class="about-visual">
         <div class="about-card-stack">
           <div class="about-stat-card">
@@ -206,7 +194,7 @@
             <div class="about-stat-label">Research Areas</div>
           </div>
           <div class="about-stat-card">
-            <div class="about-stat-num">₹8Cr+</div>
+            <div class="about-stat-num">₹10Cr+</div>
             <div class="about-stat-label">Research Funding</div>
           </div>
         </div>
@@ -219,7 +207,6 @@
 
 <!-- ════════════════════════════════════════
      RESEARCH AREAS
-     EDIT: add/remove .r-card blocks
      ════════════════════════════════════════ -->
 <section id="research" class="section bg-alt">
   <div class="container">
@@ -234,7 +221,6 @@
       </p>
     </div>
 
-    <!-- EDIT: RESEARCH CARDS — copy a .r-card block to add more -->
     <div class="research-grid reveal">
 
       <div class="r-card">
@@ -279,184 +265,6 @@
 
 
 <!-- ════════════════════════════════════════
-     PEOPLE
-     Three tabs: Faculty · Staff · Students
-
-     TO ADD A PERSON:
-       1. Find the right panel (ppl-faculty/staff/students)
-       2. Copy a .pcard block, paste, update photo src /
-          initials / name / badge / bio / tags / link
-     ════════════════════════════════════════ -->
-<section id="people" class="section">
-  <div class="container">
-
-    <div class="section-header reveal">
-      <span class="section-tag">The Team</span>
-      <h2 class="section-title">Our People</h2>
-      <div class="section-bar"></div>
-    </div>
-
-    <!-- Pill-style tab switcher -->
-    <div class="ppl-tabs reveal" role="tablist">
-      <button class="ppl-tab active" data-tab="faculty" role="tab" aria-selected="true">
-        Faculty <span class="ppl-tab-count">8</span>
-      </button>
-      <button class="ppl-tab" data-tab="staff" role="tab" aria-selected="false">
-        Staff <span class="ppl-tab-count">1</span>
-      </button>
-      <button class="ppl-tab" data-tab="students" role="tab" aria-selected="false">
-        Students <span class="ppl-tab-count">29</span>
-      </button>
-    </div>
-
-
-    <!-- ── TAB 1: FACULTY ── -->
-    <div class="ppl-panel active" id="ppl-faculty" role="tabpanel">
-      <div id="faculty-grid" class="faculty-grid reveal"></div>
-    </div><!-- end faculty panel -->
-
-
-    <!-- ── TAB 2: STAFF ── -->
-    <div class="ppl-panel" id="ppl-staff" role="tabpanel">
-      <div id="staff-grid" class="faculty-grid reveal"></div>
-    </div><!-- end staff panel -->
-
-
-    <!-- ── TAB 3: STUDENTS ── -->
-    <div class="ppl-panel" id="ppl-students" role="tabpanel">
-
-      <!-- Student sub-tabs -->
-      <div class="student-tabs" role="tablist">
-        <button class="student-tab active" data-stab="phd"     role="tab" aria-selected="true">PhD</button>
-        <button class="student-tab"        data-stab="ms"      role="tab" aria-selected="false">MS</button>
-        <button class="student-tab"        data-stab="mtech"   role="tab" aria-selected="false">MTech</button>
-        <button class="student-tab"        data-stab="project" role="tab" aria-selected="false">Project Associates</button>
-      </div>
-
-      <!-- PhD panel -->
-      <div class="student-panel active" id="stab-phd" role="tabpanel">
-        <div id="phd-grid" class="student-grid reveal"></div>
-      </div><!-- end phd panel -->
-
-      <!-- MS panel -->
-      <div class="student-panel" id="stab-ms" role="tabpanel">
-        <div id="ms-grid" class="student-grid reveal"></div>
-      </div><!-- end ms panel -->
-
-      <!-- MTech panel -->
-      <div class="student-panel" id="stab-mtech" role="tabpanel">
-        <div id="mtech-grid" class="student-grid reveal"></div>
-      </div><!-- end mtech panel -->
-
-      <!-- Project Associates panel -->
-      <div class="student-panel" id="stab-project" role="tabpanel">
-        <div id="project-grid" class="student-grid reveal"></div>
-      </div><!-- end project panel -->
-
-    </div><!-- end students panel -->
-
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════════════
-     PUBLICATIONS
-     EDIT: Add a .pub-year-group per year.
-     Inside .pub-entries, copy a .pub-card.
-     Card types:  journal | conference | workshop
-     Modifiers:   recent | award
-     ════════════════════════════════════════ -->
-<section id="publications" class="section bg-alt">
-  <div class="container">
-
-    <div class="section-header reveal">
-      <span class="section-tag">Research Output</span>
-      <h2 class="section-title">Selected Publications</h2>
-      <div class="section-bar"></div>
-    </div>
-
-    <div id="publications-container"></div>
-
-
-    <!-- EDIT: replace # with Google Scholar or publications page URL -->
-    <div class="pub-footer reveal">
-    </div>
-
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════════════
-     CONTACT
-     EDIT: address, email, institute link, map embed
-     ════════════════════════════════════════ -->
-<section id="contact" class="section">
-  <div class="container">
-
-    <div class="section-header reveal">
-      <span class="section-tag">Get in Touch</span>
-      <h2 class="section-title">Contact Us</h2>
-      <div class="section-bar"></div>
-    </div>
-
-    <div class="contact-grid reveal">
-
-      <div class="contact-info">
-
-        <!-- EDIT: ADDRESS -->
-        <div class="contact-row">
-          <div class="c-icon">📍</div>
-          <div>
-            <div class="c-label">Address</div>
-            <div class="c-value">
-              Floor-3, Academic Block-I<br>
-              Indian Institute of Technology Dharwad<br>
-              Chikkamalligawad, Dharwad – 580 007<br>
-              Karnataka, India
-            </div>
-          </div>
-        </div>
-
-        <!-- EDIT: EMAIL -->
-        <div class="contact-row">
-          <div class="c-icon">✉️</div>
-          <div>
-            <div class="c-label">Email</div>
-            <div class="c-value"><a href="mailto:cspml@iitdh.ac.in">cspml@iitdh.ac.in</a></div>
-          </div>
-        </div>
-
-        <!-- EDIT: INSTITUTE LINK -->
-        <div class="contact-row">
-          <div class="c-icon">🔗</div>
-          <div>
-            <div class="c-label">IIT Dharwad</div>
-            <div class="c-value"><a href="https://www.iitdh.ac.in/" target="_blank">www.iitdh.ac.in</a></div>
-          </div>
-        </div>
-
-        <form class="contact-form" id="mailing-form">
-          <h3>Stay Updated</h3>
-          <p>Join our mailing list for publications, open positions, and events.</p>
-          <div class="form-row">
-            <input type="email" class="form-input" placeholder="your@email.com" required>
-            <button type="submit" class="form-btn">Subscribe</button>
-          </div>
-        </form>
-
-      </div><!-- end contact-info -->
-
-      <!-- EDIT: MAP — replace iframe src with a different location if needed -->
-      <div class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7690.039641604506!2d74.933215!3d15.483366!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf3395a2e69c89%3A0xac157d5cbd8c7cab!2sAcademic%20(Engineering)%20Block%201!5e0!3m2!1sen!2sin!4v1777030418712!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════════════
      FOOTER
      ════════════════════════════════════════ -->
 <footer>
@@ -469,29 +277,25 @@
       </div>
     </div>
     <nav class="footer-nav" aria-label="Footer navigation">
-      <a href="#home">Home</a>
+      <a href="index.html">Home</a>
       <a href="#about">About</a>
       <a href="#research">Research</a>
-      <a href="#people">People</a>
-      <a href="#publications">Publications</a>
-      <a href="#contact">Contact</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="infrastructure.html">Infrastructure</a>
+      <a href="contact.html">Contact</a>
     </nav>
     <div class="footer-copy">© 2025 CSPML · IIT Dharwad · All rights reserved</div>
   </div>
 </footer>
 
 
-<!-- ════════════════════════════════════════
-     JAVASCRIPT
-     ════════════════════════════════════════ -->
 <script>
-  /* ── Sticky nav: add shadow + background on scroll ── */
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 24);
   }, { passive: true });
 
-  /* ── Mobile hamburger toggle ── */
   const hamburger = document.getElementById('hamburger');
   hamburger.addEventListener('click', () => {
     navbar.classList.toggle('nav-open');
@@ -501,7 +305,6 @@
     a.addEventListener('click', () => navbar.classList.remove('nav-open'));
   });
 
-  /* ── Scroll reveal ── */
   const revealObserver = new IntersectionObserver(
     entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
     { threshold: 0.08 }
@@ -509,7 +312,6 @@
   document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
   window._revealObserver = revealObserver;
 
-  /* ── Active nav link highlight based on scroll position ── */
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('#nav-links a');
   const sectionObserver = new IntersectionObserver(entries => {
@@ -522,62 +324,6 @@
     });
   }, { rootMargin: '-40% 0px -55% 0px' });
   sections.forEach(s => sectionObserver.observe(s));
-
-  /* ── People tab switching ── */
-  document.querySelectorAll('.ppl-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-      document.querySelectorAll('.ppl-tab').forEach(t => {
-        t.classList.remove('active');
-        t.setAttribute('aria-selected', 'false');
-      });
-      document.querySelectorAll('.ppl-panel').forEach(p => p.classList.remove('active'));
-      tab.classList.add('active');
-      tab.setAttribute('aria-selected', 'true');
-      const panel = document.getElementById('ppl-' + tab.dataset.tab);
-      if (panel) panel.classList.add('active');
-    });
-  });
-
-  /* ── Student sub-tab switching ── */
-  document.querySelectorAll('.student-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-      const target = tab.dataset.stab;
-      document.querySelectorAll('.student-tab').forEach(t => {
-        t.classList.remove('active');
-        t.setAttribute('aria-selected', 'false');
-      });
-      tab.classList.add('active');
-      tab.setAttribute('aria-selected', 'true');
-      document.querySelectorAll('.student-panel').forEach(p => p.classList.remove('active'));
-      const panel = document.getElementById('stab-' + target);
-      if (panel) panel.classList.add('active');
-    });
-  });
-
-  /* ── Hero canvas — handled by js/shader-background.js ── */
-
-  /* ── Mailing list form ── */
-  const mailingForm = document.getElementById('mailing-form');
-  if (mailingForm) {
-    mailingForm.addEventListener('submit', e => {
-      e.preventDefault();
-      const input = mailingForm.querySelector('.form-input');
-      const btn   = mailingForm.querySelector('.form-btn');
-      if (!input.value.includes('@')) {
-        input.style.borderColor = '#ef4444';
-        input.focus();
-        return;
-      }
-      btn.textContent = '✓ Subscribed!';
-      btn.style.background = '#16a34a';
-      input.value = '';
-      input.style.borderColor = '';
-      setTimeout(() => {
-        btn.textContent = 'Subscribe';
-        btn.style.background = '';
-      }, 3500);
-    });
-  }
 </script>
 <script src="js/shader-background.js"></script>
 <script src="js/renderer.js"></script>
