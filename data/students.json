@@ -6,7 +6,7 @@
       "photo": "images/people/student_photos/Shruti_M.jpeg",
       "status": "graduated",
       "supervisor": "Prof. B N Bharath",
-      "bio": "Federated Learning, Bilevel Optimization"
+      "bio": "Assistant Professor at IIIT Dharwad"
     },
     {
       "name": "Sumit Sah",
@@ -14,13 +14,13 @@
       "photo": "images/people/student_photos/20230520_150315 - Sumit Sah.jpg",
       "status": "graduated",
       "supervisor": "Prof. B N Bharath",
-      "bio": "Online Learning, Non-convex Optimization"
+      "bio": "Visiting research student at MBZ, Abu Dhabhi"
     },
     {
       "name": "Gangadhar Karevvanavar",
       "initials": "GK",
       "photo": "images/people/student_photos/photo-Gangadhar - Gangadhar Karevvanavar.jpeg",
-      "status": "pursuing",
+      "status": "graduated",
       "supervisor": "Prof. Rajshekhar V Bhat",
       "bio": "Wireless Communications, Coding Theory"
     },
@@ -30,7 +30,7 @@
       "photo": "images/people/student_photos/Harini-233x300.jpg",
       "status": "graduated",
       "supervisor": "Prof. Naveen M. B.",
-      "bio": "Wireless Communications"
+      "bio": "Assistant Professor at Manipal Institute of Technology Bengaluru"
     },
     {
       "name": "Jagadeeshchandra Shetty",
@@ -62,7 +62,7 @@
       "photo": "images/people/student_photos/Jagabandhu.jpeg",
       "status": "graduated",
       "supervisor": "Prof. S R Mahadeva Prasanna",
-      "bio": "Spoken Language Processing, Self-Supervised Learning"
+      "bio": "Post Doctoral Researcher at University of Eastern Finland"
     },
     {
       "name": "Chandan R.",
@@ -94,7 +94,7 @@
       "photo": "images/people/student_photos/Ajul_D.jpg",
       "status": "graduated",
       "supervisor": "Prof. Ameer K Mulla",
-      "bio": "Control Systems, Robust Control"
+      "bio": "Post-doctoral Researcher at AAU Energy, Aalborg University, Denmark"
     },
     {
       "name": "Jeslin Jacob M",
@@ -102,7 +102,7 @@
       "photo": "images/people/student_photos/Jeslin-Jacob-M.-252x300.jpg",
       "status": "graduated",
       "supervisor": "Prof. Ameer K Mulla",
-      "bio": "Wireless Communications"
+      "bio": "Senior Engineer (Data Science) at Air India Limited"
     },
     {
       "name": "Seema Khadirnaikar",
@@ -110,7 +110,7 @@
       "photo": "images/people/student_photos/Seema_K.jpg",
       "status": "graduated",
       "supervisor": "Prof. S. R. M. Prasanna",
-      "bio": "machine learning"
+      "bio": "Senior Engineer at Qualcomm Hyderabad"
     },
     {
       "name": "Vishweshkumar Aithal",
@@ -136,7 +136,7 @@
       "photo": "images/people/student_photos/Jyoti-Shukla-768x1024.jpg",
       "status": "graduated",
       "supervisor": "Prof. Rahul J. Pandya",
-      "bio": "Deep Learning, Remote Sensing, Drought Prediction"
+      "bio": "Researcher at Tata Research Development and Design Centre (TRDDC, Pune)"
     },
     {
       "name": "Sourav Banerjee",
@@ -152,7 +152,7 @@
       "photo": "images/people/student_photos/Sawan-Singh-Mahara-768x768.jpeg",
       "status": "graduated",
       "supervisor": "Prof. B N Bharath",
-      "bio": "Multi-Task Federated Edge Learning"
+      "bio": "Pursuing PhD at Eindhoven University of Technology Eindhoven, Netherlands"
     },
     {
       "name": "Akshay A Jagajampi",
@@ -160,7 +160,7 @@
       "photo": "images/people/student_photos/Akshay A Jagajampi.jpeg",
       "status": "graduated",
       "supervisor": "Prof. Naveen M. B.",
-      "bio": "Wireless Communications, IoT"
+      "bio": "Lead AI Scientist, Candescent Bengaluru"
     },
     {
       "name": "Praveen Kumar N",
@@ -168,7 +168,7 @@
       "photo": "images/people/student_photos/Praveen-Kumar-N-768x769.jpg",
       "status": "graduated",
       "supervisor": "Prof. Naveen M. B.",
-      "bio": "NB-IoT, Grant-Free NOMA, Active User Detection"
+      "bio": "Senior Modem Systems Engineer, Qualcomm Bengaluru"
     },
     {
       "name": "Sumanth S. Raikar",
@@ -176,7 +176,7 @@
       "photo": "images/people/student_photos/Sumanth S Raikar.jpeg",
       "status": "graduated",
       "supervisor": "Prof. Rajshekhar V Bhat",
-      "bio": "Age of Information, Error Correction Codes"
+      "bio": "Communication systems engineer at Morse micro Bengaluru"
     },
     {
       "name": "Rishabh Roy",
@@ -184,7 +184,7 @@
       "photo": "images/people/student_photos/Rishabh Roy.jpeg",
       "status": "graduated",
       "supervisor": "Prof. Rajshekhar V Bhat",
-      "bio": "Timely Throughput, IEEE 802.11ax, Target Wake Time"
+      "bio": "Wireless Research Engineer at Samsung R&D Institute Bengaluru"
     },
     {
       "name": "Jayanth S.",
@@ -192,7 +192,7 @@
       "photo": "images/people/student_photos/Jayanth_S.jpeg",
       "status": "graduated",
       "supervisor": "Prof. Rajshekhar V Bhat",
-      "bio": "Age of Processed Information, Multiple Access Channels"
+      "bio": "6G AI/ML Research Specialist at Nokia Bengaluru"
     },
     {
       "name": "Girish Kumar Gupta",
@@ -200,7 +200,7 @@
       "photo": "images/people/student_photos/Girish Kumar Gupta.jpeg",
       "status": "graduated",
       "supervisor": "Prof. Rajshekhar V Bhat",
-      "bio": "ML for Satellite-Derived Bathymetry"
+      "bio": "Machine Learning Engineer at Matrice AI"
     },
     {
       "name": "Ayush Agarwal",
@@ -208,7 +208,7 @@
       "photo": "images/people/student_photos/Ayush-Agarwal-768x705.jpg",
       "status": "graduated",
       "supervisor": "Prof. S R Mahadeva Prasanna",
-      "bio": "Automatic Speech Recognition"
+      "bio": "Founder and Chief Technology Officer at Suchama AI"
     },
     {
       "name": "Kumar Kaustubh",
@@ -216,7 +216,7 @@
       "photo": "images/people/student_photos/Kumar-Kaustubh.jpg",
       "status": "graduated",
       "supervisor": "Prof. S R Mahadeva Prasanna",
-      "bio": "speech signal processing"
+      "bio": "AI Researcher | Technical Lead at HCLTech Engineering and R&D Services (ERS) AIx, Capability Unit"
     },
     {
       "name": "Sougata Mukherjee",
@@ -224,7 +224,7 @@
       "photo": "images/people/student_photos/Sougata-Mukherjee.jpg",
       "status": "graduated",
       "supervisor": "Prof. S R Mahadeva Prasanna",
-      "bio": "speech signal processing"
+      "bio": "Senior Engineer at EROS GenAI"
     }
   ],
   "mtech": [
@@ -266,7 +266,7 @@
       "photo": "images/people/student_photos/Lokesh Kumar.jpeg",
       "status": "graduated",
       "supervisor": "Prof. Shashaank A. Mattur",
-      "bio": "EEG Signal Processing, Depression Detection, Deep Learning"
+      "bio": "Research Scientist at Cerence AI Pune"
     },
     {
       "name": "Abdul Samad Shaik",
@@ -274,7 +274,7 @@
       "photo": "images/people/student_photos/Samad.jpeg",
       "status": "graduated",
       "supervisor": "Prof. Rahul J. Pandya",
-      "bio": "Machine Learning, Deep Learning, and Generative AI"
+      "bio": "Machine Learning Engineer at Infobell IT Bengaluru"
     },
     {
       "name": "B Hemanth",
@@ -301,14 +301,5 @@
       "bio": ""
     }
   ],
-  "project": [
-    {
-      "name": "Gaurav Shukla",
-      "initials": "GS",
-      "photo": "",
-      "status": "current",
-      "supervisor": "",
-      "bio": ""
-    }
-  ]
+  "project": []
 }

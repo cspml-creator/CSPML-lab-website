@@ -55,6 +55,12 @@
       "link": "https://www.nvidia.com/en-in/data-center/dgx-h100/"
     },
     {
+      "name": "GPU workstation (H200)",
+      "photo": "images/infrastructure/HPE-H200.jpeg",
+      "description": "HPE ProLiant DL380 Gen11 with two GPU (H200 )",
+      "link": "https://www.hpe.com/psnow/doc/PSN1014696069USEN"
+    },
+    {
       "name": "Jetson Nano",
       "photo": "images/infrastructure/Jetson Nano.jpg",
       "description": "NVIDIA edge AI platform for robotics, IoT, and real-time machine learning inference at the edge.",

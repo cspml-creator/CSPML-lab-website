@@ -128,27 +128,31 @@ async function renderAll() {
     const project = students.project || [];
 
     const phdGrid = document.getElementById('phd-grid');
-    if (phdGrid) phdGrid.innerHTML = phd.map(s => {
-      const label = 'PhD · ' + (s.status === 'graduated' ? 'Graduated' : 'Pursuing');
-      return studentCardHTML(s, label);
-    }).join('');
+    if (phdGrid) phdGrid.innerHTML = phd.filter(s => s.status !== 'graduated')
+      .map(s => studentCardHTML(s, 'PhD · Pursuing')).join('');
 
     const msGrid = document.getElementById('ms-grid');
-    if (msGrid) msGrid.innerHTML = ms.map(s => {
-      const label = 'MS · ' + (s.status === 'graduated' ? 'Graduated' : 'Pursuing');
-      return studentCardHTML(s, label);
-    }).join('');
+    if (msGrid) msGrid.innerHTML = ms.filter(s => s.status !== 'graduated')
+      .map(s => studentCardHTML(s, 'MS · Pursuing')).join('');
 
     const mtechGrid = document.getElementById('mtech-grid');
-    if (mtechGrid) mtechGrid.innerHTML = mtech.map(s => {
-      const label = 'MTech · ' + (s.status === 'graduated' ? 'Graduated' : 'Pursuing');
-      return studentCardHTML(s, label);
-    }).join('');
+    if (mtechGrid) mtechGrid.innerHTML = mtech.filter(s => s.status !== 'graduated')
+      .map(s => studentCardHTML(s, 'MTech · Pursuing')).join('');
 
     const projectGrid = document.getElementById('project-grid');
     if (projectGrid) projectGrid.innerHTML = project.map(s =>
       studentCardHTML(s, 'Project Associate')
     ).join('');
+
+    const graduatedGrid = document.getElementById('graduated-grid');
+    if (graduatedGrid) {
+      const graduated = [
+        ...phd.filter(s => s.status === 'graduated').map(s => ({ ...s, _degree: 'PhD' })),
+        ...ms.filter(s => s.status === 'graduated').map(s => ({ ...s, _degree: 'MS' })),
+        ...mtech.filter(s => s.status === 'graduated').map(s => ({ ...s, _degree: 'MTech' })),
+      ];
+      graduatedGrid.innerHTML = graduated.map(s => studentCardHTML(s, s._degree + ' · Graduated')).join('');
+    }
 
     const totalStudents = phd.length + ms.length + mtech.length + project.length;
     updateTabCount('students', totalStudents);
