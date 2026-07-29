@@ -133,7 +133,7 @@ async function renderAll() {
 
     const msGrid = document.getElementById('ms-grid');
     if (msGrid) msGrid.innerHTML = ms.filter(s => s.status !== 'graduated')
-      .map(s => studentCardHTML(s, 'MS · Pursuing')).join('');
+      .map(s => studentCardHTML(s, 'M.Tech. by Research · Pursuing')).join('');
 
     const mtechGrid = document.getElementById('mtech-grid');
     if (mtechGrid) mtechGrid.innerHTML = mtech.filter(s => s.status !== 'graduated')
@@ -148,7 +148,7 @@ async function renderAll() {
     if (graduatedGrid) {
       const graduated = [
         ...phd.filter(s => s.status === 'graduated').map(s => ({ ...s, _degree: 'PhD' })),
-        ...ms.filter(s => s.status === 'graduated').map(s => ({ ...s, _degree: 'MS' })),
+        ...ms.filter(s => s.status === 'graduated').map(s => ({ ...s, _degree: 'M.Tech. by Research' })),
         ...mtech.filter(s => s.status === 'graduated').map(s => ({ ...s, _degree: 'MTech' })),
       ];
       graduatedGrid.innerHTML = graduated.map(s => studentCardHTML(s, s._degree + ' · Graduated')).join('');
@@ -160,7 +160,7 @@ async function renderAll() {
     /* ── Hero stats ── */
     const pursuingStudents = [...phd, ...ms, ...mtech, ...project]
       .filter(s => s.status !== 'graduated').length;
-    updateHeroStat('Publications', publications.length);
+    updateHeroStat('Recent Publications', publications.filter(p => p.year >= 2025).length);
     updateHeroStat('Students',     pursuingStudents);
     updateHeroStat('Faculty',      faculty.length);
 
