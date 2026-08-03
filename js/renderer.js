@@ -160,9 +160,11 @@ async function renderAll() {
     /* ── Hero stats ── */
     const pursuingStudents = [...phd, ...ms, ...mtech, ...project]
       .filter(s => s.status !== 'graduated').length;
-    updateHeroStat('Recent Publications', publications.filter(p => p.year >= 2025).length);
-    updateHeroStat('Students',     pursuingStudents);
-    updateHeroStat('Faculty',      faculty.length);
+    const graduatedStudents = [...phd, ...ms, ...mtech, ...project]
+      .filter(s => s.status === 'graduated').length;
+    updateHeroStat('Current Students',   pursuingStudents);
+    updateHeroStat('Graduated Students', graduatedStudents);
+    updateHeroStat('Faculty',            faculty.length);
 
     /* ── Publications ── */
     const pubContainer = document.getElementById('publications-container');

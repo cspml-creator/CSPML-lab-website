@@ -75,17 +75,17 @@
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-num">—</div>
-        <div class="stat-label">Recent Publications</div>
-      </div>
-      <div class="stat-sep"></div>
-      <div class="stat">
-        <div class="stat-num">—</div>
-        <div class="stat-label">Students</div>
-      </div>
-      <div class="stat-sep"></div>
-      <div class="stat">
-        <div class="stat-num">—</div>
         <div class="stat-label">Faculty</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Current Students</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Graduated Students</div>
       </div>
     </div>
 
@@ -123,37 +123,43 @@
      paste BEFORE the duplicate block below.
      Keep the second half identical (seamless loop).
      ════════════════════════════════════════ -->
-<div class="ticker-bar">
-  <div class="ticker-label">Latest</div>
-  <div class="ticker-track-wrap">
-    <div class="ticker-track">
-      <!-- EDIT: TICKER ITEMS — first half -->
-      <span class="tick-item tick-highlight tick-gold"><span class="tick-icon">💡</span> Research Internships open — step into real research with our expert team!</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item tick-highlight"><span class="tick-icon">🎓</span> PhD &amp; MTech by Research positions open — motivated researchers welcome!</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item"><span class="tick-icon">📄</span> Paper accepted at IEEE ICASSP 2025</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item"><span class="tick-icon">🏆</span> Best paper award at SPCOM 2024</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item"><span class="tick-icon">🔬</span> New SERB-funded project on 6G channel estimation</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item"><span class="tick-icon">🤝</span> Collaboration with DRDO on radar signal processing</span>
-      <span class="tick-sep">·</span>
-      <!-- Duplicate second half — keep identical to above -->
-      <span class="tick-item tick-highlight tick-gold"><span class="tick-icon">💡</span> Research Internships open — step into real research with our expert team!</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item tick-highlight"><span class="tick-icon">🎓</span> PhD &amp; MTech by Research positions open — motivated researchers welcome!</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item"><span class="tick-icon">📄</span> Paper accepted at IEEE ICASSP 2025</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item"><span class="tick-icon">🏆</span> Best paper award at SPCOM 2024</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item"><span class="tick-icon">🔬</span> New SERB-funded project on 6G channel estimation</span>
-      <span class="tick-sep">·</span>
-      <span class="tick-item"><span class="tick-icon">🤝</span> Collaboration with DRDO on radar signal processing</span>
+<div class="ann-rotator">
+  <div class="ann-rot-track">
+
+    <div class="ann-rot-item ann-rot--teal">
+      <span class="ann-rot-icon">💡</span>
+      <span class="ann-rot-text">Research Internships — Now Accepting Applications</span>
+      <a href="news.html" class="ann-rot-link">Learn More →</a>
     </div>
+
+    <div class="ann-rot-item ann-rot--indigo">
+      <span class="ann-rot-icon">🎓</span>
+      <span class="ann-rot-text">PhD, MTech &amp; MTech by Research Positions Open</span>
+      <a href="news.html" class="ann-rot-link">Learn More →</a>
+    </div>
+
+    <div class="ann-rot-item ann-rot--blue">
+      <span class="ann-rot-icon">📄</span>
+      <span class="ann-rot-text">Paper Accepted at IEEE ICASSP 2025</span>
+    </div>
+
+    <div class="ann-rot-item ann-rot--gold">
+      <span class="ann-rot-icon">🏆</span>
+      <span class="ann-rot-text">Best Paper Award at SPCOM 2024</span>
+    </div>
+
+    <div class="ann-rot-item ann-rot--green">
+      <span class="ann-rot-icon">🔬</span>
+      <span class="ann-rot-text">New SERB-Funded Project on 6G Channel Estimation</span>
+    </div>
+
+    <div class="ann-rot-item ann-rot--rose">
+      <span class="ann-rot-icon">🤝</span>
+      <span class="ann-rot-text">Collaboration with DRDO on Radar Signal Processing</span>
+    </div>
+
   </div>
+  <div class="ann-rot-progress"><div class="ann-rot-bar"></div></div>
 </div>
 
 
@@ -250,7 +256,7 @@
       <div class="r-card">
         <div class="r-icon">🤖</div>
         <h3 class="r-title">Machine Learning &amp; AI</h3>
-        <p class="r-body">From classical pattern recognition to modern deep and federated learning — developing algorithms for distributed optimization, bilevel learning, and AI-driven inference across communication and sensing systems.</p>
+        <p class="r-body">Advancing large language models, generative AI, and deep learning for intelligent inference — with a focus on federated and distributed learning, bilevel optimization, and foundation model adaptation for communication and sensing applications.</p>
       </div>
 
       <div class="r-card">
@@ -353,6 +359,40 @@
 </script>
 <script src="js/shader-background.js"></script>
 <script src="js/renderer.js"></script>
+<script>
+  (function () {
+    const items = document.querySelectorAll('.ann-rot-item');
+    const bar   = document.querySelector('.ann-rot-bar');
+    if (!items.length) return;
+    let cur = 0;
+    const DURATION = 4000;
+
+    function startBar() {
+      if (!bar) return;
+      bar.classList.remove('ann-bar-run');
+      void bar.offsetWidth;
+      bar.style.animationDuration = DURATION + 'ms';
+      bar.classList.add('ann-bar-run');
+    }
+
+    function show(idx) {
+      items[idx].classList.add('ann-active');
+      startBar();
+    }
+
+    function next() {
+      items[cur].classList.add('ann-exit');
+      items[cur].classList.remove('ann-active');
+      const prev = cur;
+      setTimeout(() => items[prev].classList.remove('ann-exit'), 600);
+      cur = (cur + 1) % items.length;
+      show(cur);
+    }
+
+    show(0);
+    setInterval(next, DURATION);
+  })();
+</script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </body>
